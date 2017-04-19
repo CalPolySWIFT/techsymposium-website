@@ -17,7 +17,9 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
           type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
+    <link href="bss/bss.css" rel="stylesheet">
+    <link href="css/headerbssfix.css" rel="stylesheet">
+    <script src="bss/bss.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -58,7 +60,26 @@
 <!-- Intro Header -->
 <header class="intro">
     <div class="intro-body">
-        <div class="container">
+        <div class="bss-slides num1" tabindex="1" autofocus="autofocus">
+            <figure><img src="img/slides/1.jpg" width="100%"/></figure>
+            <figure><img src="img/slides/2.jpg" width="100%"/></figure>
+            <figure><img src="img/slides/3.jpg" width="100%"/></figure>
+            <figure><img src="img/slides/4.jpg" width="100%"/></figure>
+            <figure><img src="img/slides/5.jpg" width="100%"/></figure>
+        </div>
+        <script>
+            var opts = {
+                selector: "figure",
+                auto: {
+                    speed: 3000,
+                    pauseOnHover: true
+                },
+                fullScreen: false,
+                swipe: false
+            };
+            makeBSS('.bss-slides', opts);
+        </script>
+        <div class="container intro-hover">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <h1 class="brand-heading">Tech Symposium</h1>
