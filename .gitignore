@@ -1,3 +1,7 @@
 .well-known/
 .idea/workspace.xml
 .DS_Store
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
