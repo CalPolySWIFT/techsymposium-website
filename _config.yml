@@ -1,0 +1,9 @@
+# Site settings
+title: Cal Poly Pomona SWIFT
+description: Students With an Interest in the Future of Technology
+keywords: Cal Poly Pomona, Technology
+author: fragtastic
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+timezone: America/Los_Angeles
+encoding: utf-8
