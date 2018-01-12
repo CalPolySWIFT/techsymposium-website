@@ -22,5 +22,5 @@
 
 .bss-slides figure img {
     /*Makes the intro text/logo pop out more over the slides*/
-    filter: brightness(80%);
+    filter: brightness(60%);
 }
