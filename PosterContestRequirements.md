@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: empty
 ---
 ![Tech Symposium logo](/img/tech_symposium_logo_black_2018.png)
 # Tech Symposium Poster Contest
