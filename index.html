@@ -79,27 +79,26 @@ mapurl: "https://www.google.com/maps/embed/v1/place?q=college%20of%20business%20
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Sign Up!</h2>
                 <div class="text-center">
-                    <div style="width:100%; text-align:left;height:450px;">
+                    <div style="width:100%; text-align:left;height:475px;">
                         <div id="eventbrite-widget-container-56689424595"></div>
+                            <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+                            <script type="text/javascript">
+                                var exampleCallback = function() {
+                                    console.log('Order complete!');
+                                };
 
-<script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
+                                window.EBWidgets.createWidget({
+                                    // Required
+                                    widgetType: 'checkout',
+                                    eventId: '56689424595',
+                                    iframeContainerId: 'eventbrite-widget-container-56689424595',
 
-    window.EBWidgets.createWidget({
-        // Required
-        widgetType: 'checkout',
-        eventId: '56689424595',
-        iframeContainerId: 'eventbrite-widget-container-56689424595',
-
-        // Optional
-        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-    });
-</script>
+                                    // Optional
+                                    iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                                    onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+                                });
+                            </script>
                         </div>
                     </div>
                 </div>
