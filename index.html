@@ -80,26 +80,28 @@ mapurl: "https://www.google.com/maps/embed/v1/place?q=college%20of%20business%20
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Sign Up!</h2>
                 <div class="text-center">
-                    <div style="width:90%; text-align:left;">
-                        <div id="eventbrite-widget-container-56689424595"></div>
-                            <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+                    <div style="width:100%; text-align:left;">
+                        <!-- Noscript content for added SEO -->
+<noscript><a href="https://techsymposium2019.eventbrite.com" rel="noopener noreferrer" target="_blank"></noscript>
+<!-- You can customize this button any way you like -->
+<button id="eventbrite-widget-modal-trigger-56689424595" type="button">Buy Tickets</button>
+<noscript></a>Buy Tickets on Eventbrite</noscript>
 
-                            <script type="text/javascript">
-                                var exampleCallback = function() {
-                                    console.log('Order complete!');
-                                };
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
-                                window.EBWidgets.createWidget({
-                                    // Required
-                                    widgetType: 'checkout',
-                                    eventId: '56689424595',
-                                    iframeContainerId: 'eventbrite-widget-container-56689424595',
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
 
-                                    // Optional
-                                    iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-                                    onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-                                });
-                            </script>
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '56689424595',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-56689424595',
+        onOrderComplete: exampleCallback
+    });
+</script>
                         </div>
                     </div>
                 </div>
