@@ -81,27 +81,12 @@ mapurl: "https://www.google.com/maps/embed/v1/place?q=college%20of%20business%20
                 <h2>Sign Up!</h2>
                 <div class="text-center">
                     <div style="width:100%; text-align:left;">
-                        <!-- Noscript content for added SEO -->
-<noscript><a href="https://techsymposium2019.eventbrite.com" rel="noopener noreferrer" target="_blank"></noscript>
-<!-- You can customize this button any way you like -->
-<button id="eventbrite-widget-modal-trigger-56689424595" type="button">Buy Tickets</button>
-<noscript></a>Buy Tickets on Eventbrite</noscript>
-
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-
-<script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-
-    window.EBWidgets.createWidget({
-        widgetType: 'checkout',
-        eventId: '56689424595',
-        modal: true,
-        modalTriggerElementId: 'eventbrite-widget-modal-trigger-56689424595',
-        onOrderComplete: exampleCallback
-    });
-</script>
+                        <iframe src="{{ page.eventbriteurl }}" frameborder="0"
+                                height="500" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5"
+                                scrolling="auto" allowtransparency="true"></iframe>
+                        <div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;">
+                            <a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank"
+                               href="https://www.eventbrite.com/r/etckt">Powered by Eventbrite</a>
                         </div>
                     </div>
                 </div>
