@@ -54,10 +54,10 @@
             <ul class="nav navbar-nav">
                 <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                 <li class="hidden"><a href="#page-top"></a></li>
+                <li><a class="page-scroll" href="schedule.html">Schedule</a></li>
                 <li><a class="page-scroll" href="#about">About</a></li>
                 <li><a class="page-scroll" href="#eventbrite">Register</a></li>
                 <li><a class="page-scroll" href="#callforabstracts">Call for Abstracts</a></li>
-                <!--<li><a class="page-scroll" href="#schedule">Schedule</a></li>-->
                 <!--<li><a class="page-scroll" href="#student">Student Involvement</a></li>-->
                 <li><a class="page-scroll" href="#location">Location</a></li>
                 <li><a class="page-scroll" href="#contact">Contact</a></li>
@@ -75,7 +75,10 @@
 <!-- Footer -->
 <footer>
     <div class="container text-center">
-        <p>Copyright &copy; SWIFT 2018</p>
+        <!-- gets current year -->
+        <p>Copyright &copy; SWIFT 
+            <script type="text/javascript">document.write( new Date().getFullYear() );</script>
+        </p>
     </div>
 </footer>
 

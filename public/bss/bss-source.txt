@@ -1,0 +1,1 @@
+Sounce for BSS can be found here https://github.com/leemark/better-simple-slideshow

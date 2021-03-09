@@ -1,0 +1,225 @@
+:root {
+    --border-round: 20px;
+    --color-primary: #E98400;
+    --color-primary-light: rgb(255, 215, 154);
+
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+
+    --text-paragraph: 1.8rem;
+}
+
+/* GLOBALS/UTILITY */
+.row {
+    margin: 0;
+}
+.col {
+    margin: 1em 0;
+}
+.col-centered {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.no-margin {
+    margin: 0;
+}
+.btn {
+    margin: 1rem auto;
+    outline: none !important;
+}
+p {
+    margin-bottom: 1.5rem;
+    font-size: var(--text-paragraph)
+}
+.border {
+    border: 1px solid;
+}
+.border-round {
+    border-radius: var(--border-round);
+}
+.border-round-bottom {
+    border-bottom-left-radius: var(--border-round);
+    border-bottom-right-radius: var(--border-round);
+}
+.border-round-top {
+    border-top-left-radius: var(--border-round);
+    border-top-right-radius: var(--border-round);
+}
+.flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.margin-centered {
+    margin: 0 auto;
+}
+.btn {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    font-weight: bold;
+    border-radius: var(--border-round);
+    color: black;
+    /* remove? */
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.btn:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.btn a {
+    color: black;
+}
+.btn a:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    color: white;
+}
+
+/* COMPONENTS */
+.card-main.content-section {
+    padding-top: 5em;
+}
+
+.modal-body .img-wrapper {
+    height: 100%;
+}
+
+.img-wrapper {
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    height: 155px;
+}
+
+/* remove? */
+.img-wrapper .img-speaker {
+    height: 100%;
+} 
+
+/* remove? */
+.img-width-100 {
+    width: 100%;
+}
+
+.card-main {
+    margin: 0 2em;
+}
+
+.card {
+    padding: 1.5em;
+    text-align: left;
+    overflow: hidden;
+}
+
+.card-title, .card-header, .btn {
+    color: var(--color-black);
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.card-wrapper {
+    margin: 1em 0;
+    border-radius: var(--border-round);
+}
+
+.btn-speakers {
+    outline: none !important;
+    font-size: var(--text-paragraph) !important;
+    background-color: transparent;
+    border: none;
+    color: var(--color-primary) !important;
+    margin-top: 1.8em;
+}
+.btn-speakers:hover {
+    color: var(--color-white) !important;
+}
+
+.speaker-text {
+    font-size: 1.4rem;
+    padding: 0 5px;
+}
+
+.speaker {
+    height: 200px;
+    position: relative;
+}
+.speaker-card {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.speaker-card:hover {
+    opacity: 0.5;
+}
+
+.speaker-text-wrapper {
+    position: relative;
+}
+.speaker-text-overlay {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(14, 14, 16, 0.288) 26%, rgb(14, 14, 16) 91%);
+    color: white;
+}
+
+.card-header {
+    background-color: var(--color-primary);
+    text-align: center;
+    padding: 1em 0;
+}
+
+.card-title {
+    background-color: var(--color-white);
+    text-align: center;
+    padding: 0.3em 0;
+}
+
+.modal {
+    color: var(--color-black);
+}
+
+@media (max-width: 991px) {
+    .img-wrapper {
+        max-width: 50%;
+        margin: 0 auto;
+        /* height: 180px; */
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        padding: 1em;
+    }
+    .card-header {
+        font-size: 1.8rem;
+    }
+    .card-title {
+        font-size: 2rem;
+    }
+    .card-text {
+        font-size: 1.8rem;
+    }
+    .speaker-text {
+        font-size: 1.5rem;
+    }
+    .card-main {
+        margin: 0;
+    }
+}
+

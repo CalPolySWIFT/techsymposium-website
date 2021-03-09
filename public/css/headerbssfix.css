@@ -1,0 +1,26 @@
+.intro-hover {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    /*Makes the intro show up on top of the slides at index 1*/
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+.bss-prev {
+    /*Makes the button clickable on top of the intro at index 2*/
+    z-index: 3;
+}
+
+.bss-next {
+    /*Makes the button clickable on top of the intro at index 2*/
+    z-index: 3;
+    /*Fixes the horizontal scroll bar from showing up*/
+    right: 0px;
+}
+
+.bss-slides figure img {
+    /*Makes the intro text/logo pop out more over the slides*/
+    filter: brightness(60%);
+}
