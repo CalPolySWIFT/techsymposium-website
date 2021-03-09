@@ -153,8 +153,11 @@ export const data = [
       title: "The Weaponizing of Blockchain",
       date: "12:00PM - 12:55PM",
       desc: [
-        "Full-Stack Developer. Incident Response Analyst. Chief Information Security Officer. So many tech jobs require deep and wide knowledge across multiple domains. You're a student, and that internship requires 5 years of experience. How does anyone qualify for these jobs, let alone get promoted out of them? Learn the things that nobody told me about getting a job, growing my career, and staying sane in tech.",
-        "Topics include: You can't know everything, and that's okay, Why GE's matter, The Dunning-Kruger Effect vs. Imposter Syndrome, Knowing is not doing, Honing a specific skill, Building and feeding your community.",
+        "This talk will include the following topics:",
+        "-Weaponizing Blockchain",
+        "-Current exploit history including Proof of Concept", 
+        "-Nation/state cryptocurrency manipulation, and preserving blockchain integrity",
+        "-Preserving Blockchain Integrity",  
       ],
       link: "https://cpp.zoom.us/s/87469552077",
       linkType: "Zoom",
