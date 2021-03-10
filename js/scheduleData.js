@@ -89,14 +89,6 @@ export const data = [
           ]
         },
         {
-          name: "Geoff Gilbert",
-          image: "img/speakers/Geoff Gilbert - Novacoast photo.jpg",
-          desc: [
-            "Geoff Gilbert is Vice President of Engineering globally at Novacoast. Geoff has been in Information Technology and Cyber Security for over 20 years,  he currently leads the engineering team that is responsible for delivering implementation services for Novacoast’s customers worldwide.", 
-            "In addition, Geoff works with current and future customers to ascertain the technical talent they need in order to recruit and develop his team to meet current needs. Geoff also manages several vendor relationships to ensure that the technical team is aligned with the vendor requirements in order to grow the Novacoast business pipeline.",
-          ]
-        },
-        {
           name: "Shawna Delgadillo",
           image: "img/speakers/Shawna Delgadillo Prof Pic.jpg",
           desc: [
