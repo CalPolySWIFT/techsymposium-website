@@ -158,9 +158,9 @@ export const data = [
           name: "Nicole Fellouris",
           image: "img/speakers/Nicole Fellouris Pic.jpg",
           desc: [
-            "Ms. Nicole Fellouris career in I.T. Security and Ethical Hacking spans over 20 years, she has been in the security industry since 1996 as an ethical hacker and security consultant. She has been involved in the remediation and mitigation of incidents related to network intrusion, data theft/corruption, viral outbreaks, fraud, extortion, espionage, cyber harassment, and online misrepresentation.", 
-            "In 2020, she assisted in launching the cyber, cloud security and compliance startup firm, Flipside Security, with her long term mentor, the esteemed Anthony Johnson as CEO.", 
-            "When her Advisory, CISO and Neuroscientist hat is off, she’s a doting Mother to her seven year old daughter and Schutzhund trained German Shepherd.",
+            "Ms. Nicole Fellouris’ career in IT Security and Ethical Hacking spans over 20 years. She has been in the security industry since 1996 as an ethical hacker and security consultant. She has been involved in the remediation and mitigation of incidents related to network intrusion, data theft/corruption, viral outbreaks, fraud, extortion, espionage, cyber harassment, and online misrepresentation.", 
+            "In 2020, she assisted in launching the cyber, cloud security and compliance startup firm, Flipside Security, with her long-term mentor, the esteemed Anthony Johnson, as CEO.", 
+            "When her advisory, CISO and neuroscientist hat is off, she’s a doting mother to her seven-year-old daughter and Schutzhund-trained German Shepherd.",
           ]
         }, 
       ]
