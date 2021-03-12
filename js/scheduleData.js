@@ -348,7 +348,7 @@ export const data = [
         title: "Solarwinds Case Study: Overview, Data Analysis, and Industry Perspective.",
         date: "5:30PM - 6:25PM",
         desc: [
-          "We are currently during research and analyzing data that would explain why cybersecurity is especially important during the pandemic. We will be sharing information we gathered from our research and we are currently searching for datasets that we can visualize to present during our presentation. We would like our presentation to highlight the importance of cybersecurity awareness as well as showcasing how insightful analyzing and visualizing data can be.",
+          "The MISSA DA team will be presenting a research topic regarding the SolarWinds hack. They will discuss how big data is utilized in the cybersecurity field, background and methodology of the SolarWinds hack, share information from interviews they conducted with cybersecurity professionals, and present interesting visualizations related to cybersecurity.",
         ],
         link: "https://cpp.zoom.us/s/87469552077",
         linkType: "Zoom",
