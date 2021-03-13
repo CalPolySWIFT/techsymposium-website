@@ -5,15 +5,15 @@ export const data = [
       desc: [
         "Come and join us as the Vice President of the IBM Security Business Unit, Bob Kalka, presents a keynote presentation: \"Building a Successful Cybersecurity Career\"",
       ],
-      // link: "https://cpp.zoom.us/s/84551875537",
+      // link: "https://cpp.zoom.us/j/84551875537",
       link: [
         {
           type: "Zoom",
-          url: "https://cpp.zoom.us/s/84551875537",
+          url: "https://cpp.zoom.us/j/84551875537",
         },
         // {
         //   type: "Zoom",
-        //   url: "https://cpp.zoom.us/s/84551875537",
+        //   url: "https://cpp.zoom.us/j/84551875537",
         // },
       ],
       speaker: [
@@ -40,7 +40,7 @@ export const data = [
       link: [
         {
           type: "Zoom",
-          url: "https://cpp.zoom.us/s/84551875537",
+          url: "https://cpp.zoom.us/j/84551875537",
         },
       ],
       speaker: [
@@ -65,7 +65,7 @@ export const data = [
       link: [
         {
           type: "Zoom",
-          url: "https://cpp.zoom.us/s/87469552077",
+          url: "https://cpp.zoom.us/j/87469552077",
         },
       ],
       speaker: [
@@ -89,7 +89,7 @@ export const data = [
       link: [
         {
           type: "Zoom",
-          url: "https://cpp.zoom.us/s/84551875537",
+          url: "https://cpp.zoom.us/j/84551875537",
         },
       ],
       speaker: [
@@ -152,7 +152,7 @@ export const data = [
       link: [
         {
           type: "Zoom",
-          url: "https://cpp.zoom.us/s/84551875537",
+          url: "https://cpp.zoom.us/j/84551875537",
         },
       ],
       speaker: [
@@ -179,7 +179,7 @@ export const data = [
       link: [
         {
           type: "Zoom",
-          url: "https://cpp.zoom.us/s/87469552077",
+          url: "https://cpp.zoom.us/j/87469552077",
         },
       ],
       speaker: [
@@ -203,7 +203,7 @@ export const data = [
       link: [
         {
           type: "Zoom",
-          url: "https://cpp.zoom.us/s/84551875537",
+          url: "https://cpp.zoom.us/j/84551875537",
         },
       ],
       speaker: [
@@ -226,7 +226,7 @@ export const data = [
       link: [
         {
           type: "Zoom",
-          url: "https://cpp.zoom.us/s/87469552077",
+          url: "https://cpp.zoom.us/j/87469552077",
         },
       ],
       speaker: [
@@ -258,7 +258,7 @@ export const data = [
       link: [
         {
           type: "Zoom",
-          url: "https://cpp.zoom.us/s/84551875537",
+          url: "https://cpp.zoom.us/j/84551875537",
         },
       ],
       speaker: [
@@ -280,7 +280,7 @@ export const data = [
       link: [
         {
           type: "Zoom",
-          url: "https://cpp.zoom.us/s/87469552077",
+          url: "https://cpp.zoom.us/j/87469552077",
         },
       ],
       speaker: [
@@ -304,7 +304,7 @@ export const data = [
         link: [
           {
             type: "Zoom",
-            url: "https://cpp.zoom.us/s/84551875537",
+            url: "https://cpp.zoom.us/j/84551875537",
           },
         ],
         speaker: [
@@ -328,7 +328,7 @@ export const data = [
         link: [
           {
             type: "Zoom",
-            url: "https://cpp.zoom.us/s/87469552077",
+            url: "https://cpp.zoom.us/j/87469552077",
           },
         ],
         speaker: [
@@ -350,7 +350,7 @@ export const data = [
         link: [
           {
             type: "Zoom",
-            url: "https://cpp.zoom.us/s/84551875537",
+            url: "https://cpp.zoom.us/j/84551875537",
           },
         ],
         speaker: [
@@ -372,7 +372,7 @@ export const data = [
         link: [
           {
             type: "Zoom",
-            url: "https://cpp.zoom.us/s/87469552077",
+            url: "https://cpp.zoom.us/j/87469552077",
           },
         ],
         speaker: [
@@ -396,7 +396,7 @@ export const data = [
         link: [
           {
             type: "Zoom",
-            url: "https://cpp.zoom.us/s/84551875537",
+            url: "https://cpp.zoom.us/j/84551875537",
           },
         ],
         speaker: [
@@ -418,7 +418,7 @@ export const data = [
         link: [
           {
             type: "Zoom",
-            url: "https://cpp.zoom.us/s/87469552077",
+            url: "https://cpp.zoom.us/j/87469552077",
           },
         ],
         speaker: [{
