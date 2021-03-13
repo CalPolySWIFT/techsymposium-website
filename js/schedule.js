@@ -24,7 +24,10 @@ for(let card = data.length-1; card > -1; card--) {
 
                 <!--insert main description-->
                 <div id="insertDesc" class="row card">
-                    <button class="btn center-block"><a href="${data[card].link}">${data[card].linkType} Link</a></button>
+                    <div id="insertButtons" class="row card">
+                    
+                    </div>
+                    <!--<button class="btn center-block"><a href="${data[card].link}">${data[card].linkType} Link</a></button>-->
                     <!--<button class="btn center-block"><a href="${data[card].link}">LINK2</a></button>-->
                     <!--<button class="btn btn-speakers center-block" data-toggle="collapse" data-target=".collapseElement${card}">TOGGLE SPEAKERS</button>-->
                 </div>
@@ -41,6 +44,15 @@ for(let card = data.length-1; card > -1; card--) {
     pos = document.getElementById("insertDesc");
     for(let i = data[card].desc.length-1; i > -1; i--) {
         template = `<p class="card-text">${data[card].desc[i]}</p>`;
+        pos.insertAdjacentHTML("afterbegin", template);
+
+    }
+
+    // Speaker room links
+    pos = document.getElementById("insertButtons");
+    // for(let i = data[card].link.length-1; i > -1; i--) {
+    for(let i = data[card].link.length-1; i > -1; i--) {
+        template = `<button class="btn center-block"><a href="${data[card].link[i].url}">${data[card].link[i].type} Link</a></button>`;
         pos.insertAdjacentHTML("afterbegin", template);
 
     }
