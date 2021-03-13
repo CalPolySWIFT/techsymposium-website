@@ -1,7 +1,7 @@
 export const data = [
     {
       title: "Keynote: Building a Successful Cybersecurity Career",
-      date: "9:30AM - 9:55AM",
+      date: "9:30AM - 9:55AM (PST)",
       desc: [
         "Come and join us as the Vice President of the IBM Security Business Unit, Bob Kalka, presents a keynote presentation: \"Building a Successful Cybersecurity Career\"",
       ],
@@ -32,7 +32,7 @@ export const data = [
     },
     {
       title: "How to Know Everything (or, Why you have to be a Specialist and a Generalist)",
-      date: "10:00AM - 10:55AM",
+      date: "10:00AM - 10:55AM (PST)",
       desc: [
         "Full-Stack Developer. Incident Response Analyst. Chief Information Security Officer. So many tech jobs require deep and wide knowledge across multiple domains. You're a student, and that internship requires 5 years of experience. How does anyone qualify for these jobs, let alone get promoted out of them? Learn the things that nobody told me about getting a job, growing my career, and staying sane in tech.",
         "Topics include: You can't know everything, and that's okay, Why GE's matter, The Dunning-Kruger Effect vs. Imposter Syndrome, Knowing is not doing, Honing a specific skill, Building and feeding your community.",
@@ -55,7 +55,7 @@ export const data = [
     }, 
     {
       title: "OSINT Basics for Threat Hunters and Practitioners",
-      date: "10:00AM - 10:55AM",
+      date: "10:00AM - 10:55AM (PST)",
       desc: [
         "Come learn the basics of OSINT, but for hunting Internet infrastructure. Whether you're a threat hunter searching for adversaries, or a defender protecting your organization's network, understanding how to leverage OSINT approaches to identifying infrastructure is an important skill to learn. What I’ll cover in this session?",
         "-OSINT Basics: Let’ s talk about what it is, why it’s important, how it’s used in the world of Internet infrastructure. ",
@@ -81,7 +81,7 @@ export const data = [
     }, 
     {
       title: "Security Career Panel presented by STEM Advantage",
-      date: "11:00AM - 11:55AM",
+      date: "11:00AM - 11:55AM (PST)",
       desc: [
         "Join us as industry professionals share their experiences with landing their first career in the STEM field. If you are a student close to graduation, an entry level hire, or a professional looking to transition into a Cybersecurity related role, come and hear the perspectives of professionals with a range of job titles, backgrounds, and experiences!",
         "This talk also includes an interactive Q&A portion!",
@@ -145,7 +145,7 @@ export const data = [
     }, 
     {
       title: "CALDERA: Beyond Adversary Emulation with MITRE ATT&CK",
-      date: "12:00PM - 12:55PM",
+      date: "12:00PM - 12:55PM (PST)",
       desc: [
         "The suite of capabilities and functionality in the open source CALDERA platform from MITRE provides a unique nexus point for disparate information security governance, IT, DevOps, security operations, and compliance processes. This presentation will provide context about disconnected technology risk management processes in the real world organizations that SWIFT members may be employed at and introduce CALDERA as a functional and capable tool to improve risk management and information security collaboration and as a gateway to bring the ATT&CK knowledge base into organizations.",
       ],
@@ -168,7 +168,7 @@ export const data = [
     }, 
     {
       title: "The Weaponizing of Blockchain",
-      date: "12:00PM - 12:55PM",
+      date: "12:00PM - 12:55PM (PST)",
       desc: [
         "This talk will include the following topics:",
         "-Weaponizing Blockchain",
@@ -196,7 +196,7 @@ export const data = [
     }, 
     {
       title: "Intro to Hardware RE",
-      date: "1:00PM - 1:55PM",
+      date: "1:00PM - 1:55PM (PST)",
       desc: [
         "The Intro to Hardware RE talk will guide beginners through taking apart and understanding digital electronic devices. It will overview commonly used tools such as multimeters, logic analyzers, and soldering tools as well as software tools for building a schematic and interacting with hardware components.",
       ],
@@ -218,7 +218,7 @@ export const data = [
     }, 
     {
       title: "Tales from a Hacker and QSA",
-      date: "1:00PM - 1:55PM",
+      date: "1:00PM - 1:55PM (PST)",
       desc: [
         "The increasing frequency and variety of cyberattacks leaves organizations’ data susceptible to breaches. This presentation will educate and inform attendees on several common attack scenarios that penetration testers and hackers use to compromise a corporate environment and what is needed from a compliance perspective to protect organizations. We will cover straight forward mitigation suggestions that can be implemented in your company today.",
         "Learning Objectives: identify types of common types of attacks and data breaches, recognize the impact of data breaches on organizations, learn how to protect your data and other assets from cyberattacks, learn what you can do proactively from a compliance perspective.",
@@ -251,7 +251,7 @@ export const data = [
     }, 
     {
       title: "Privacy & Security Postures and Programs",
-      date: "2:00PM - 2:55PM",
+      date: "2:00PM - 2:55PM (PST)",
       desc: [
         "Each business approaches cybersecurity and privacy differently, based on the philosophy of their executives and the business's profit models and risk assessments. I hope to illuminate some of the different paradigms students can expect based on a company's industry and stage of growth, in order to help them understand the skills they need to develop and factors they should consider depending on who they wish to work for.",
       ],
@@ -273,7 +273,7 @@ export const data = [
     }, 
     {
       title: "Intro to Terraform",
-      date: "2:00PM - 2:55PM",
+      date: "2:00PM - 2:55PM (PST)",
       desc: [
         "Infrastructure as code is becoming ubiquitous for companies due to its ability to accelerate dev time, allow for easy change control, and quickly spin up and spin down environments. In this presentation/workshop, we'll discuss some core patterns and concepts to get you comfortable with Terraform so you can quickly understand any Terraform codebase you come across!",
       ],
@@ -295,7 +295,7 @@ export const data = [
     }, 
     {
       title: "Workshop: Web Security Testing Like a Hacker",
-      date: "3:00PM - 4:25PM",
+      date: "3:00PM - 4:25PM (PST)",
       desc: [
         "As the skills shortage for qualified practitioners in the cyber security field continues to worsen, organizations have been relying on automation to fill the void in their security testing needs. While automation and AI have proven effective for identifying weaknesses such as injection vulnerabilities and overflows, automation leaves dangerous gaps in things like workflow errors and those weaknesses not easily identified by cookie-cutter methods.",
         "This workshop walks participants though an online hacker escape room using the OWASP ZAP tool. This will teach the participants to use this security testing tool while training them to use their observational skills to pen test a web site beyond typical automation. Because of the nature of this workshop, all skill levels are able to participate and complete beginners are encouraged to attend. As most won’t finish the escape room during the workshop, the instructor will hold two follow-up sessions to coach those who are stuck and wanting to continue.",
@@ -320,7 +320,7 @@ export const data = [
       },
       {
         title: "Workshop: Binary Exploitation for Beginners",
-        date: "3:00PM - 4:25PM",
+        date: "3:00PM - 4:25PM (PST)",
         desc: [
           "Learn the fundamentals of binary exploitation and memory corruption in this friendly, hands-on workshop. We'll cover the basics of how executables work in Linux, how executables/processes use memory, how memory corruption attacks work, and the tools and techniques you can use to exploit these vulnerabilities.",
           "We'll walk through exploitation steps together and take control of vulnerable programs to get access to their underlying operating/file systems with escalated privileges. This workshop will use Kali Linux/Ubuntu and various command line tools. Familiarity with Linux command line usage and basic programming (Python/C/etc.) is recommended!",
@@ -343,7 +343,7 @@ export const data = [
       },
       {
         title: "Rock the Cash Box",
-        date: "4:30PM - 5:25PM",
+        date: "4:30PM - 5:25PM (PST)",
         desc: [
           "Hacking ATMs, from obtaining ATMs to decoding protocols. This talk will cover how embedded research is conducted.",
         ],
@@ -365,7 +365,7 @@ export const data = [
       },
       {
         title: "Intro to 3D Printing for Hobbyists",
-        date: "4:30PM - 5:25PM",
+        date: "4:30PM - 5:25PM (PST)",
         desc: [
           "An introduction to 3D printing for hobbyists. This talk will cover the history, current uses, and future of 3D printers. Technical information will include how a basic printer works, common material types, and an overview of modeling and slicing. It will include some basic advice for choosing your first 3D printer and recommendations of where to get started.",
         ],
@@ -388,7 +388,7 @@ export const data = [
       },
       {
         title: "An Intro to Embedded Device Security Testing",
-        date: "5:30PM - 6:25PM",
+        date: "5:30PM - 6:25PM (PST)",
         desc: [
           "Embedded Devices are everywhere; from IoT soil sensors to your brand new washing machine - the amount of connected products hitting the market has exploded.", 
           "This talk aims to give you a baseline to start an embedded device assessment. While not a comprehensive walk through of embedded device security, the aim is to get you familiar with the concepts, tools, resources, and strategies of embedded device security assessment. In this talk, I will walk you through, and answer some of the toughest questions and situations I have encountered within my 20 years in the industry specifically focused around product security and embedded devices.",
@@ -411,7 +411,7 @@ export const data = [
       },
       {
         title: "Solarwinds Case Study: Overview, Data Analysis, and Industry Perspective.",
-        date: "5:30PM - 6:25PM",
+        date: "5:30PM - 6:25PM (PST)",
         desc: [
           "The MISSA DA team will be presenting a research topic regarding the SolarWinds hack. They will discuss how big data is utilized in the cybersecurity field, background and methodology of the SolarWinds hack, share information from interviews they conducted with cybersecurity professionals, and present interesting visualizations related to cybersecurity.",
         ],
@@ -466,7 +466,7 @@ export const data = [
         ]
       },{
         title: "Workshop: Adversarial Simulation",
-        date: "1:00PM - 2:00PM (Blue-Teaming) & 4:30PM - 5:30 PM (Red-Teaming)",
+        date: "1:00PM - 2:00PM (Blue-Teaming) & 4:30PM - 5:30 PM (Red-Teaming) (PST)",
         desc: [
           "SWIFT will be hosting a Adversarial Simulation workshop this Saturday for Tech Symposium! We will be discussing the basics of blue-teaming, such as how to fix misconfigurations on both Windows and Linux machines and hardening various services. In addition, we will also be walking through how to hack your way into those systems! This workshop will require a separate registration and will be limited to the first 30 sign ups. If you are within the first 30, you will receive an email for further instructions on the required software to install beforehand as well as the Zoom Link.", 
         ],
