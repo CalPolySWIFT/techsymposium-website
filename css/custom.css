@@ -192,6 +192,7 @@ p {
     color: var(--color-black);
 }
 
+
 @media (max-width: 991px) {
     .img-wrapper {
         max-width: 50%;
@@ -206,13 +207,10 @@ p {
     .card {
         padding: 1em;
     }
-    .card-header {
-        font-size: 1.8rem;
-    }
     .card-title {
         font-size: 2rem;
     }
-    .card-text {
+    .card-header, .card-text, .btn {
         font-size: 1.8rem;
     }
     .speaker-text {
