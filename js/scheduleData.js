@@ -5,8 +5,17 @@ export const data = [
       desc: [
         "Come and join us as the Vice President of the IBM Security Business Unit, Bob Kalka, presents a keynote presentation: \"Building a Successful Cybersecurity Career\"",
       ],
-      link: "https://cpp.zoom.us/s/84551875537",
-      linkType: "Zoom",
+      // link: "https://cpp.zoom.us/s/84551875537",
+      link: [
+        {
+          type: "Zoom",
+          url: "https://cpp.zoom.us/s/84551875537",
+        },
+        // {
+        //   type: "Zoom",
+        //   url: "https://cpp.zoom.us/s/84551875537",
+        // },
+      ],
       speaker: [
         {
           name: "Bob Kalka",
@@ -28,8 +37,12 @@ export const data = [
         "Full-Stack Developer. Incident Response Analyst. Chief Information Security Officer. So many tech jobs require deep and wide knowledge across multiple domains. You're a student, and that internship requires 5 years of experience. How does anyone qualify for these jobs, let alone get promoted out of them? Learn the things that nobody told me about getting a job, growing my career, and staying sane in tech.",
         "Topics include: You can't know everything, and that's okay, Why GE's matter, The Dunning-Kruger Effect vs. Imposter Syndrome, Knowing is not doing, Honing a specific skill, Building and feeding your community.",
       ],
-      link: "https://cpp.zoom.us/s/84551875537",
-      linkType: "Zoom",
+      link: [
+        {
+          type: "Zoom",
+          url: "https://cpp.zoom.us/s/84551875537",
+        },
+      ],
       speaker: [
         {
           name: "Jeff Best",
@@ -49,8 +62,12 @@ export const data = [
         "-Understanding Different Use Cases: We’ll take a quick look at examples of how this is valuable for threat hunters, security practitioners, as well as researchers. ",
         "-Practice, practice, practice: I’ll end this talk by sharing out some good resources and ideas for how you can sharpen your OSINT skills for security research or for better organization defense.",
       ],
-      link: "https://cpp.zoom.us/s/87469552077",
-      linkType: "Zoom",
+      link: [
+        {
+          type: "Zoom",
+          url: "https://cpp.zoom.us/s/87469552077",
+        },
+      ],
       speaker: [
         {
           name: "Megan DeBois",
@@ -69,8 +86,12 @@ export const data = [
         "Join us as industry professionals share their experiences with landing their first career in the STEM field. If you are a student close to graduation, an entry level hire, or a professional looking to transition into a Cybersecurity related role, come and hear the perspectives of professionals with a range of job titles, backgrounds, and experiences!",
         "This talk also includes an interactive Q&A portion!",
       ],
-      link: "https://cpp.zoom.us/s/84551875537",
-      linkType: "Zoom",
+      link: [
+        {
+          type: "Zoom",
+          url: "https://cpp.zoom.us/s/84551875537",
+        },
+      ],
       speaker: [
         {
           name: "Lee Ann Kline",
@@ -128,8 +149,12 @@ export const data = [
       desc: [
         "The suite of capabilities and functionality in the open source CALDERA platform from MITRE provides a unique nexus point for disparate information security governance, IT, DevOps, security operations, and compliance processes. This presentation will provide context about disconnected technology risk management processes in the real world organizations that SWIFT members may be employed at and introduce CALDERA as a functional and capable tool to improve risk management and information security collaboration and as a gateway to bring the ATT&CK knowledge base into organizations.",
       ],
-      link: "https://cpp.zoom.us/s/84551875537",
-      linkType: "Zoom",
+      link: [
+        {
+          type: "Zoom",
+          url: "https://cpp.zoom.us/s/84551875537",
+        },
+      ],
       speaker: [
         {
           name: "Jon King",
@@ -151,8 +176,12 @@ export const data = [
         "-Nation/state cryptocurrency manipulation, and preserving blockchain integrity",
         "-Preserving Blockchain Integrity",  
       ],
-      link: "https://cpp.zoom.us/s/87469552077",
-      linkType: "Zoom",
+      link: [
+        {
+          type: "Zoom",
+          url: "https://cpp.zoom.us/s/87469552077",
+        },
+      ],
       speaker: [
         {
           name: "Nicole Fellouris",
@@ -171,8 +200,12 @@ export const data = [
       desc: [
         "The Intro to Hardware RE talk will guide beginners through taking apart and understanding digital electronic devices. It will overview commonly used tools such as multimeters, logic analyzers, and soldering tools as well as software tools for building a schematic and interacting with hardware components.",
       ],
-      link: "https://cpp.zoom.us/s/84551875537",
-      linkType: "Zoom",
+      link: [
+        {
+          type: "Zoom",
+          url: "https://cpp.zoom.us/s/84551875537",
+        },
+      ],
       speaker: [
         {
           name: "April Chaire",
@@ -190,8 +223,12 @@ export const data = [
         "The increasing frequency and variety of cyberattacks leaves organizations’ data susceptible to breaches. This presentation will educate and inform attendees on several common attack scenarios that penetration testers and hackers use to compromise a corporate environment and what is needed from a compliance perspective to protect organizations. We will cover straight forward mitigation suggestions that can be implemented in your company today.",
         "Learning Objectives: identify types of common types of attacks and data breaches, recognize the impact of data breaches on organizations, learn how to protect your data and other assets from cyberattacks, learn what you can do proactively from a compliance perspective.",
       ],
-      link: "https://cpp.zoom.us/s/87469552077",
-      linkType: "Zoom",
+      link: [
+        {
+          type: "Zoom",
+          url: "https://cpp.zoom.us/s/87469552077",
+        },
+      ],
       speaker: [
         {
           name: "Sheryl Benedict",
@@ -218,8 +255,12 @@ export const data = [
       desc: [
         "Each business approaches cybersecurity and privacy differently, based on the philosophy of their executives and the business's profit models and risk assessments. I hope to illuminate some of the different paradigms students can expect based on a company's industry and stage of growth, in order to help them understand the skills they need to develop and factors they should consider depending on who they wish to work for.",
       ],
-      link: "https://cpp.zoom.us/s/84551875537",
-      linkType: "Zoom",
+      link: [
+        {
+          type: "Zoom",
+          url: "https://cpp.zoom.us/s/84551875537",
+        },
+      ],
       speaker: [
         {
           name: "Alex Segal",
@@ -236,8 +277,12 @@ export const data = [
       desc: [
         "Infrastructure as code is becoming ubiquitous for companies due to its ability to accelerate dev time, allow for easy change control, and quickly spin up and spin down environments. In this presentation/workshop, we'll discuss some core patterns and concepts to get you comfortable with Terraform so you can quickly understand any Terraform codebase you come across!",
       ],
-      link: "https://cpp.zoom.us/s/87469552077",
-      linkType: "Zoom",
+      link: [
+        {
+          type: "Zoom",
+          url: "https://cpp.zoom.us/s/87469552077",
+        },
+      ],
       speaker: [
         {
           name: "Chris Schafer",
@@ -256,8 +301,12 @@ export const data = [
         "This workshop walks participants though an online hacker escape room using the OWASP ZAP tool. This will teach the participants to use this security testing tool while training them to use their observational skills to pen test a web site beyond typical automation. Because of the nature of this workshop, all skill levels are able to participate and complete beginners are encouraged to attend. As most won’t finish the escape room during the workshop, the instructor will hold two follow-up sessions to coach those who are stuck and wanting to continue.",
          "To participate, attendees must have a system with the open source OWASP ZAP software <a href='https://www.zaproxy.org'>https://www.zaproxy.org</a> installed, which runs on any platform.",
         ],
-        link: "https://cpp.zoom.us/s/84551875537",
-        linkType: "Zoom",
+        link: [
+          {
+            type: "Zoom",
+            url: "https://cpp.zoom.us/s/84551875537",
+          },
+        ],
         speaker: [
           {
             name: "Mike Landeck",
@@ -276,8 +325,12 @@ export const data = [
           "Learn the fundamentals of binary exploitation and memory corruption in this friendly, hands-on workshop. We'll cover the basics of how executables work in Linux, how executables/processes use memory, how memory corruption attacks work, and the tools and techniques you can use to exploit these vulnerabilities.",
           "We'll walk through exploitation steps together and take control of vulnerable programs to get access to their underlying operating/file systems with escalated privileges. This workshop will use Kali Linux/Ubuntu and various command line tools. Familiarity with Linux command line usage and basic programming (Python/C/etc.) is recommended!",
         ],
-        link: "https://cpp.zoom.us/s/87469552077",
-        linkType: "Zoom",
+        link: [
+          {
+            type: "Zoom",
+            url: "https://cpp.zoom.us/s/87469552077",
+          },
+        ],
         speaker: [
           {
             name: "datagram",
@@ -294,8 +347,12 @@ export const data = [
         desc: [
           "Hacking ATMs, from obtaining ATMs to decoding protocols. This talk will cover how embedded research is conducted.",
         ],
-        link: "https://cpp.zoom.us/s/84551875537",
-        linkType: "Zoom",
+        link: [
+          {
+            type: "Zoom",
+            url: "https://cpp.zoom.us/s/84551875537",
+          },
+        ],
         speaker: [
           {
             name: "wasabi",
@@ -312,8 +369,12 @@ export const data = [
         desc: [
           "An introduction to 3D printing for hobbyists. This talk will cover the history, current uses, and future of 3D printers. Technical information will include how a basic printer works, common material types, and an overview of modeling and slicing. It will include some basic advice for choosing your first 3D printer and recommendations of where to get started.",
         ],
-        link: "https://cpp.zoom.us/s/87469552077",
-        linkType: "Zoom",
+        link: [
+          {
+            type: "Zoom",
+            url: "https://cpp.zoom.us/s/87469552077",
+          },
+        ],
         speaker: [
           {
             name: "David Hunter",
@@ -332,8 +393,12 @@ export const data = [
           "Embedded Devices are everywhere; from IoT soil sensors to your brand new washing machine - the amount of connected products hitting the market has exploded.", 
           "This talk aims to give you a baseline to start an embedded device assessment. While not a comprehensive walk through of embedded device security, the aim is to get you familiar with the concepts, tools, resources, and strategies of embedded device security assessment. In this talk, I will walk you through, and answer some of the toughest questions and situations I have encountered within my 20 years in the industry specifically focused around product security and embedded devices.",
         ],
-        link: "https://cpp.zoom.us/s/84551875537",
-        linkType: "Zoom",
+        link: [
+          {
+            type: "Zoom",
+            url: "https://cpp.zoom.us/s/84551875537",
+          },
+        ],
         speaker: [
           {
             name: "John Stauffacher",
@@ -350,8 +415,12 @@ export const data = [
         desc: [
           "The MISSA DA team will be presenting a research topic regarding the SolarWinds hack. They will discuss how big data is utilized in the cybersecurity field, background and methodology of the SolarWinds hack, share information from interviews they conducted with cybersecurity professionals, and present interesting visualizations related to cybersecurity.",
         ],
-        link: "https://cpp.zoom.us/s/87469552077",
-        linkType: "Zoom",
+        link: [
+          {
+            type: "Zoom",
+            url: "https://cpp.zoom.us/s/87469552077",
+          },
+        ],
         speaker: [{
             name: "Nick Bias",
             image: "img/speakers/Nick Bias.JPG",
@@ -400,9 +469,13 @@ export const data = [
         date: "1:00PM - 2:00PM (Blue-Teaming) & 4:30PM - 5:30 PM (Red-Teaming)",
         desc: [
           "SWIFT will be hosting a Adversarial Simulation workshop this Saturday for Tech Symposium! We will be discussing the basics of blue-teaming, such as how to fix misconfigurations on both Windows and Linux machines and hardening various services. In addition, we will also be walking through how to hack your way into those systems! This workshop will require a separate registration and will be limited to the first 30 sign ups. If you are within the first 30, you will receive an email for further instructions on the required software to install beforehand as well as the Zoom Link.", 
-          ],
-        link: "https://da.gd/ZQI8Y",
-        linkType: "Google Forms",
+        ],
+        link: [
+          {
+            type: "Google Forms",
+            url: "https://da.gd/ZQI8Y",
+          },
+        ],
         speaker: [
           {
             name: "SWIFT Operations Team",
