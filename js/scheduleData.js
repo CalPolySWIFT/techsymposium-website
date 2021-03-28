@@ -6,14 +6,16 @@ export const data = [
         "Come and join us as the Vice President of the IBM Security Business Unit, Bob Kalka, presents a keynote presentation: \"Building a Successful Cybersecurity Career\"",
       ],
       link: [
+        // External Link
         {
           name: "Zoom",
           url: "https://cpp.zoom.us/j/84551875537",
         },
-        {
-          name: "PDF",
-          url: "../assets/TechSymposiumScheduleBlue2021.png",
-        },
+        // Internal Link
+        // {
+        //   name: "PDF",
+        //   url: "../assets/TechSymposiumScheduleBlue2021.png",
+        // },
       ],
       speaker: [
         {
