@@ -1,4 +1,4 @@
-export const data = [
+export const eventData = [
     {
       title: "Keynote: Building a Successful Cybersecurity Career",
       date: "9:30AM - 9:55AM (PST)",
@@ -465,7 +465,8 @@ export const data = [
             ]
           },
         ]
-      },{
+      },
+      {
         title: "Workshop: Adversarial Simulation",
         date: "1:00PM - 2:00PM (Blue-Teaming) & 4:30PM - 5:30 PM (Red-Teaming) (PST)",
         desc: [
