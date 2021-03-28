@@ -5,16 +5,15 @@ export const data = [
       desc: [
         "Come and join us as the Vice President of the IBM Security Business Unit, Bob Kalka, presents a keynote presentation: \"Building a Successful Cybersecurity Career\"",
       ],
-      // link: "https://cpp.zoom.us/j/84551875537",
       link: [
         {
-          type: "Zoom",
+          name: "Zoom",
           url: "https://cpp.zoom.us/j/84551875537",
         },
-        // {
-        //   type: "Zoom",
-        //   url: "https://cpp.zoom.us/j/84551875537",
-        // },
+        {
+          name: "PDF",
+          url: "../img/TechSymposiumScheduleBlue2021.png",
+        },
       ],
       speaker: [
         {
@@ -39,7 +38,7 @@ export const data = [
       ],
       link: [
         {
-          type: "Zoom",
+          name: "Zoom",
           url: "https://cpp.zoom.us/j/84551875537",
         },
       ],
@@ -64,7 +63,7 @@ export const data = [
       ],
       link: [
         {
-          type: "Zoom",
+          name: "Zoom",
           url: "https://cpp.zoom.us/j/87469552077",
         },
       ],
@@ -88,7 +87,7 @@ export const data = [
       ],
       link: [
         {
-          type: "Zoom",
+          name: "Zoom",
           url: "https://cpp.zoom.us/j/84551875537",
         },
       ],
@@ -151,7 +150,7 @@ export const data = [
       ],
       link: [
         {
-          type: "Zoom",
+          name: "Zoom",
           url: "https://cpp.zoom.us/j/84551875537",
         },
       ],
@@ -178,7 +177,7 @@ export const data = [
       ],
       link: [
         {
-          type: "Zoom",
+          name: "Zoom",
           url: "https://cpp.zoom.us/j/87469552077",
         },
       ],
@@ -202,7 +201,7 @@ export const data = [
       ],
       link: [
         {
-          type: "Zoom",
+          name: "Zoom",
           url: "https://cpp.zoom.us/j/84551875537",
         },
       ],
@@ -221,11 +220,11 @@ export const data = [
       date: "1:00PM - 1:55PM (PST)",
       desc: [
         "The increasing frequency and variety of cyberattacks leaves organizations’ data susceptible to breaches. This presentation will educate and inform attendees on several common attack scenarios that penetration testers and hackers use to compromise a corporate environment and what is needed from a compliance perspective to protect organizations. We will cover straight forward mitigation suggestions that can be implemented in your company today.",
-        "Learning Objectives: identify types of common types of attacks and data breaches, recognize the impact of data breaches on organizations, learn how to protect your data and other assets from cyberattacks, learn what you can do proactively from a compliance perspective.",
+        "Learning Objectives: identify names of common names of attacks and data breaches, recognize the impact of data breaches on organizations, learn how to protect your data and other assets from cyberattacks, learn what you can do proactively from a compliance perspective.",
       ],
       link: [
         {
-          type: "Zoom",
+          name: "Zoom",
           url: "https://cpp.zoom.us/j/87469552077",
         },
       ],
@@ -243,7 +242,7 @@ export const data = [
           image: "img/speakers/Daniel N. Web Headshots.jpg",
           desc: [
             "Daniel Nguyen is a Lead Security Consultant at LBMC Information Security and holds the OSCP and GWAPT certifications. Daniel was a former cancer research biologist and has since transitioned into penetration testing.", 
-            "Daniel is highly experienced with various types of technical assessments including web application assessments, internal/external penetration tests, physical security assessments, social engineering, and phishing. He focuses on stealthy techniques such as Living off the Land (LOL), Open Source Intelligence (OSINT), and misconfiguration abuse. This led to his focus on exploiting human behavior and masking his IOCs to evade detection.", 
+            "Daniel is highly experienced with various names of technical assessments including web application assessments, internal/external penetration tests, physical security assessments, social engineering, and phishing. He focuses on stealthy techniques such as Living off the Land (LOL), Open Source Intelligence (OSINT), and misconfiguration abuse. This led to his focus on exploiting human behavior and masking his IOCs to evade detection.", 
             "He believes in a collaborative approach to security and penetration tests often evolve into purple teaming exercises where he works with clients to improve their detection and monitoring defenses.",
           ]
         }, 
@@ -257,7 +256,7 @@ export const data = [
       ],
       link: [
         {
-          type: "Zoom",
+          name: "Zoom",
           url: "https://cpp.zoom.us/j/84551875537",
         },
       ],
@@ -279,7 +278,7 @@ export const data = [
       ],
       link: [
         {
-          type: "Zoom",
+          name: "Zoom",
           url: "https://cpp.zoom.us/j/87469552077",
         },
       ],
@@ -303,7 +302,7 @@ export const data = [
         ],
         link: [
           {
-            type: "Zoom",
+            name: "Zoom",
             url: "https://cpp.zoom.us/j/84551875537",
           },
         ],
@@ -327,7 +326,7 @@ export const data = [
         ],
         link: [
           {
-            type: "Zoom",
+            name: "Zoom",
             url: "https://cpp.zoom.us/j/87469552077",
           },
         ],
@@ -349,7 +348,7 @@ export const data = [
         ],
         link: [
           {
-            type: "Zoom",
+            name: "Zoom",
             url: "https://cpp.zoom.us/j/84551875537",
           },
         ],
@@ -367,11 +366,11 @@ export const data = [
         title: "Intro to 3D Printing for Hobbyists",
         date: "4:30PM - 5:25PM (PST)",
         desc: [
-          "An introduction to 3D printing for hobbyists. This talk will cover the history, current uses, and future of 3D printers. Technical information will include how a basic printer works, common material types, and an overview of modeling and slicing. It will include some basic advice for choosing your first 3D printer and recommendations of where to get started.",
+          "An introduction to 3D printing for hobbyists. This talk will cover the history, current uses, and future of 3D printers. Technical information will include how a basic printer works, common material names, and an overview of modeling and slicing. It will include some basic advice for choosing your first 3D printer and recommendations of where to get started.",
         ],
         link: [
           {
-            type: "Zoom",
+            name: "Zoom",
             url: "https://cpp.zoom.us/j/87469552077",
           },
         ],
@@ -395,7 +394,7 @@ export const data = [
         ],
         link: [
           {
-            type: "Zoom",
+            name: "Zoom",
             url: "https://cpp.zoom.us/j/84551875537",
           },
         ],
@@ -417,7 +416,7 @@ export const data = [
         ],
         link: [
           {
-            type: "Zoom",
+            name: "Zoom",
             url: "https://cpp.zoom.us/j/87469552077",
           },
         ],
@@ -472,7 +471,7 @@ export const data = [
         ],
         link: [
           {
-            type: "Google Forms",
+            name: "Google Forms",
             url: "https://da.gd/ZQI8Y",
           },
         ],
