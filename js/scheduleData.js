@@ -144,349 +144,349 @@ export const eventData = [
         },
       ]
     }, 
-    {
-      title: "CALDERA: Beyond Adversary Emulation with MITRE ATT&CK",
-      date: "12:00PM - 12:55PM (PST)",
-      desc: [
-        "The suite of capabilities and functionality in the open source CALDERA platform from MITRE provides a unique nexus point for disparate information security governance, IT, DevOps, security operations, and compliance processes. This presentation will provide context about disconnected technology risk management processes in the real world organizations that SWIFT members may be employed at and introduce CALDERA as a functional and capable tool to improve risk management and information security collaboration and as a gateway to bring the ATT&CK knowledge base into organizations.",
-      ],
-      link: [
-        {
-          name: "Zoom",
-          url: "https://cpp.zoom.us/j/84551875537",
-        },
-      ],
-      speaker: [
-        {
-          name: "Jon King",
-          image: "assets/speakers/Jon King.JPG",
-          desc: [
-            "Jon is an IT and information security leader with over 17 years of experience managing, administering, engineering, and architecting enterprise IT environments. As a consultant, he advises leaders in risk management, technology strategy, compliance, and performs deep-dive assessments of information security programs including framework-focused reviews, vulnerability assessments, penetration tests, red team engagements, purple team workshops, and implementation support.", 
-            "Jon’s prior experience includes active duty service with the USMC, service as a federal civilian employee, and roles in IT and information security in the private sector.",
-          ]
-        }, 
-      ]
-    }, 
-    {
-      title: "The Weaponizing of Blockchain",
-      date: "12:00PM - 12:55PM (PST)",
-      desc: [
-        "This talk will include the following topics:",
-        "-Weaponizing Blockchain",
-        "-Current exploit history including Proof of Concept", 
-        "-Nation/state cryptocurrency manipulation, and preserving blockchain integrity",
-        "-Preserving Blockchain Integrity",  
-      ],
-      link: [
-        {
-          name: "Zoom",
-          url: "https://cpp.zoom.us/j/87469552077",
-        },
-      ],
-      speaker: [
-        {
-          name: "Nicole Fellouris",
-          image: "assets/speakers/Nicole Fellouris Pic.jpg",
-          desc: [
-            "Ms. Nicole Fellouris’ career in IT Security and Ethical Hacking spans over 20 years. She has been in the security industry since 1996 as an ethical hacker and security consultant. She has been involved in the remediation and mitigation of incidents related to network intrusion, data theft/corruption, viral outbreaks, fraud, extortion, espionage, cyber harassment, and online misrepresentation.", 
-            "In 2020, she assisted in launching the cyber, cloud security and compliance startup firm, Flipside Security, with her long-term mentor, the esteemed Anthony Johnson, as CEO.", 
-            "When her advisory, CISO and neuroscientist hat is off, she’s a doting mother to her seven-year-old daughter and Schutzhund-trained German Shepherd.",
-          ]
-        }, 
-      ]
-    }, 
-    {
-      title: "Intro to Hardware RE",
-      date: "1:00PM - 1:55PM (PST)",
-      desc: [
-        "The Intro to Hardware RE talk will guide beginners through taking apart and understanding digital electronic devices. It will overview commonly used tools such as multimeters, logic analyzers, and soldering tools as well as software tools for building a schematic and interacting with hardware components.",
-      ],
-      link: [
-        {
-          name: "Zoom",
-          url: "https://cpp.zoom.us/j/84551875537",
-        },
-      ],
-      speaker: [
-        {
-          name: "April Chaire",
-          image: "assets/speakers/April Chaire Pic.png",
-          desc: [
-            "April has spent the past five years as an engineer in the defense industry which included developing avionic and navigation systems. Currently, she works on reverse engineering and pentesting embedded systems while part-timing as an M.S. Computer Engineering student.",
-          ]
-        }, 
-      ]
-    }, 
-    {
-      title: "Tales from a Hacker and QSA",
-      date: "1:00PM - 1:55PM (PST)",
-      desc: [
-        "The increasing frequency and variety of cyberattacks leaves organizations’ data susceptible to breaches. This presentation will educate and inform attendees on several common attack scenarios that penetration testers and hackers use to compromise a corporate environment and what is needed from a compliance perspective to protect organizations. We will cover straight forward mitigation suggestions that can be implemented in your company today.",
-        "Learning Objectives: identify names of common names of attacks and data breaches, recognize the impact of data breaches on organizations, learn how to protect your data and other assets from cyberattacks, learn what you can do proactively from a compliance perspective.",
-      ],
-      link: [
-        {
-          name: "Zoom",
-          url: "https://cpp.zoom.us/j/87469552077",
-        },
-      ],
-      speaker: [
-        {
-          name: "Sheryl Benedict",
-          image: "assets/speakers/Headshot Benedict-Sheryl.jpg",
-          desc: [
-            "Sheryl Benedict is a Manager at LBMC Information Security and holds several certifications. She is an alumni from Cal Poly Pomona. Sheryl Benedict draws on her more than 15 years of experience as an information security and compliance professional and assessor, and IT auditor providing services to clients ranging from small private companies to Fortune 500 Global Organizations. Sheryl is experienced in performing assessments and testing compliance with PCI DSS assessments, SOC reporting, SOX, FIEL/JSOX, HIPAA, Security Risk Assessments, ACAB, IT Internal Controls and Business Process Control reviews, and e-Discovery Computer Forensics throughout several industries.", 
-            "She is also active in and continues to volunteer and support many non-profit organizations such as Dyer Observatory and The Glade Church Quilt Ministry.",
-          ]
-        }, 
-        {
-          name: "Daniel Nguyen",
-          image: "assets/speakers/Daniel N. Web Headshots.jpg",
-          desc: [
-            "Daniel Nguyen is a Lead Security Consultant at LBMC Information Security and holds the OSCP and GWAPT certifications. Daniel was a former cancer research biologist and has since transitioned into penetration testing.", 
-            "Daniel is highly experienced with various names of technical assessments including web application assessments, internal/external penetration tests, physical security assessments, social engineering, and phishing. He focuses on stealthy techniques such as Living off the Land (LOL), Open Source Intelligence (OSINT), and misconfiguration abuse. This led to his focus on exploiting human behavior and masking his IOCs to evade detection.", 
-            "He believes in a collaborative approach to security and penetration tests often evolve into purple teaming exercises where he works with clients to improve their detection and monitoring defenses.",
-          ]
-        }, 
-      ]
-    }, 
-    {
-      title: "Privacy & Security Postures and Programs",
-      date: "2:00PM - 2:55PM (PST)",
-      desc: [
-        "Each business approaches cybersecurity and privacy differently, based on the philosophy of their executives and the business's profit models and risk assessments. I hope to illuminate some of the different paradigms students can expect based on a company's industry and stage of growth, in order to help them understand the skills they need to develop and factors they should consider depending on who they wish to work for.",
-      ],
-      link: [
-        {
-          name: "Zoom",
-          url: "https://cpp.zoom.us/j/84551875537",
-        },
-      ],
-      speaker: [
-        {
-          name: "Alex Segal",
-          image: "assets/speakers/Alex Segal Pic.jpg",
-          desc: [
-            "Alex did his undergraduate research at Cal Poly Pomona under Dr. Husain and graduated in 2015. Since then, he has worked as a Privacy and Security Engineer at several companies, large and small. Currently, he is employed as a Privacy Engineer at HP.",
-          ]
-        }, 
-      ]
-    }, 
-    {
-      title: "Intro to Terraform",
-      date: "2:00PM - 2:55PM (PST)",
-      desc: [
-        "Infrastructure as code is becoming ubiquitous for companies due to its ability to accelerate dev time, allow for easy change control, and quickly spin up and spin down environments. In this presentation/workshop, we'll discuss some core patterns and concepts to get you comfortable with Terraform so you can quickly understand any Terraform codebase you come across!",
-      ],
-      link: [
-        {
-          name: "Zoom",
-          url: "https://cpp.zoom.us/j/87469552077",
-        },
-      ],
-      speaker: [
-        {
-          name: "Chris Schafer",
-          image: "assets/speakers/Chris Shafer Pic.png",
-          desc: [
-            "Chris Schafer (swiss) started his career after playing CCDC for Cal Poly Pomona. He currently leads Security Operations at a fintech company in the Bay Area, building a SOC-less team focused on detection and automated response. Some of his major accomplishments include designing and building automated phishing and malware analysis systems for a large bank and earning a black badge at Defcon in Capture The Packet with Wasabi in 2019.",
-          ]
-        }, 
-      ]
-    }, 
-    {
-      title: "Workshop: Web Security Testing Like a Hacker",
-      date: "3:00PM - 4:25PM (PST)",
-      desc: [
-        "As the skills shortage for qualified practitioners in the cyber security field continues to worsen, organizations have been relying on automation to fill the void in their security testing needs. While automation and AI have proven effective for identifying weaknesses such as injection vulnerabilities and overflows, automation leaves dangerous gaps in things like workflow errors and those weaknesses not easily identified by cookie-cutter methods.",
-        "This workshop walks participants though an online hacker escape room using the OWASP ZAP tool. This will teach the participants to use this security testing tool while training them to use their observational skills to pen test a web site beyond typical automation. Because of the nature of this workshop, all skill levels are able to participate and complete beginners are encouraged to attend. As most won’t finish the escape room during the workshop, the instructor will hold two follow-up sessions to coach those who are stuck and wanting to continue.",
-         "To participate, attendees must have a system with the open source OWASP ZAP software <a href='https://www.zaproxy.org'>https://www.zaproxy.org</a> installed, which runs on any platform.",
-        ],
-        link: [
-          {
-            name: "Zoom",
-            url: "https://cpp.zoom.us/j/84551875537",
-          },
-        ],
-        speaker: [
-          {
-            name: "Mike Landeck",
-            image: "assets/speakers/MikeLandeckBioSIS (2).jpg",
-            desc: [
-              "Mike Landeck led the security implementation and then operationalized two of the Country’s largest cloud-based healthcare IT projects. Mike has been responsible for the overall security of systems with financial transactions of over $4 billion per month, as well as security programs regulated by HIPAA, SOX, PCI, FISMA (NIST 800-53), the IRS (FTI IRS 1075), and FedRAMP.", 
-              "Mike is an application security testing expert and has consulted on security in the SDLC to dozens of commercial products. He is a frequent conference speaker and workshop presenter focusing on such topics as software security testing and security program management. Mike is a CISSP as well as a certified professional Cloud Security Manager.",
-            ]
-          }, 
-        ]
-      },
-      {
-        title: "Workshop: Binary Exploitation for Beginners",
-        date: "3:00PM - 4:25PM (PST)",
-        desc: [
-          "Learn the fundamentals of binary exploitation and memory corruption in this friendly, hands-on workshop. We'll cover the basics of how executables work in Linux, how executables/processes use memory, how memory corruption attacks work, and the tools and techniques you can use to exploit these vulnerabilities.",
-          "We'll walk through exploitation steps together and take control of vulnerable programs to get access to their underlying operating/file systems with escalated privileges. This workshop will use Kali Linux/Ubuntu and various command line tools. Familiarity with Linux command line usage and basic programming (Python/C/etc.) is recommended!",
-        ],
-        link: [
-          {
-            name: "Zoom",
-            url: "https://cpp.zoom.us/j/87469552077",
-          },
-        ],
-        speaker: [
-          {
-            name: "datagram",
-            image: "assets/speakers/Datagram.png",
-            desc: [
-              "Data is an expert in the fields of cyber security, hacking, reverse engineering, binary exploitation, and physical security. He runs the upcoming LayerOne security conference and is a founding member of the LA Hackerspace Null Space Labs.",
-            ]
-          }, 
-        ]
-      },
-      {
-        title: "Rock the Cash Box",
-        date: "4:30PM - 5:25PM (PST)",
-        desc: [
-          "Hacking ATMs, from obtaining ATMs to decoding protocols. This talk will cover how embedded research is conducted.",
-        ],
-        link: [
-          {
-            name: "Zoom",
-            url: "https://cpp.zoom.us/j/84551875537",
-          },
-        ],
-        speaker: [
-          {
-            name: "wasabi",
-            image: "assets/speakers/Wasabi Pic.jpg",
-            desc: [
-              "Tinker of electronics and perpetual volunteer. Helps make CPTC and CCDC happen.",
-            ]
-          }, 
-        ]
-      },
-      {
-        title: "Intro to 3D Printing for Hobbyists",
-        date: "4:30PM - 5:25PM (PST)",
-        desc: [
-          "An introduction to 3D printing for hobbyists. This talk will cover the history, current uses, and future of 3D printers. Technical information will include how a basic printer works, common material names, and an overview of modeling and slicing. It will include some basic advice for choosing your first 3D printer and recommendations of where to get started.",
-        ],
-        link: [
-          {
-            name: "Zoom",
-            url: "https://cpp.zoom.us/j/87469552077",
-          },
-        ],
-        speaker: [
-          {
-            name: "David Hunter",
-            image: "assets/speakers/David Hunter Pic.jpg",
-            desc: [
-              "Davie (David Hunter) graduated from Cal Poly Pomona in 2010 after participating in SWIFT, CCDC, and UBSS. He started his career working for Cal Poly Pomona's I&IT Networks Department, moved on to being a Senior Network Engineer for a Cisco VAR, and is currently the Senior Network Engineer at King's Hawaiian in Torrance, CA. His background draws heavily on his experience during CCDC in learning networking, Linux, and Windows.", 
-              "These days he's actively involved in the south LA tech group known as Reverse Shell Corporation, along with being a core organizer of the ShellCon information security conference that takes place in the Fall every year.",
-            ]
-          }, 
-        ],
-      },
-      {
-        title: "An Intro to Embedded Device Security Testing",
-        date: "5:30PM - 6:25PM (PST)",
-        desc: [
-          "Embedded Devices are everywhere; from IoT soil sensors to your brand new washing machine - the amount of connected products hitting the market has exploded.", 
-          "This talk aims to give you a baseline to start an embedded device assessment. While not a comprehensive walk through of embedded device security, the aim is to get you familiar with the concepts, tools, resources, and strategies of embedded device security assessment. In this talk, I will walk you through, and answer some of the toughest questions and situations I have encountered within my 20 years in the industry specifically focused around product security and embedded devices.",
-        ],
-        link: [
-          {
-            name: "Zoom",
-            url: "https://cpp.zoom.us/j/84551875537",
-          },
-        ],
-        speaker: [
-          {
-            name: "John Stauffacher",
-            image: "assets/speakers/placeholder.png",
-            desc: [
-              "TBA",
-            ]
-          },
-        ]
-      },
-      {
-        title: "Solarwinds Case Study: Overview, Data Analysis, and Industry Perspective.",
-        date: "5:30PM - 6:25PM (PST)",
-        desc: [
-          "The MISSA DA team will be presenting a research topic regarding the SolarWinds hack. They will discuss how big data is utilized in the cybersecurity field, background and methodology of the SolarWinds hack, share information from interviews they conducted with cybersecurity professionals, and present interesting visualizations related to cybersecurity.",
-        ],
-        link: [
-          {
-            name: "Zoom",
-            url: "https://cpp.zoom.us/j/87469552077",
-          },
-        ],
-        speaker: [{
-            name: "Nick Bias",
-            image: "assets/speakers/Nick Bias.JPG",
-            desc: [
-              "Nick Bias is a fifth-year student in his final semester. He switched majors his third year from Architecture to Computer Information Systems with an emphasis in Business Intelligence, so he has a mixed background in design, technology, and business. He plans to graduate by Spring 2021. He is a member of the MISSA Data Analytics team, so he hopes to gain some experience from this event, by applying what he has learned to a real-world topic.",
-            ]
-          },
-          {
-            name: "Mikael Melsew",
-            image: "assets/speakers/Mikael Melsew.JPG",
-            desc: [
-              "Mikael Melsew, born and raised in the Silicon Valley, is a senior at Cal Poly Pomona planning to graduate in the fall of 2021. He studies Computer Information Systems with an emphasis in Information Security and Forensics. Some of his career goals include working in the information security field and starting a philanthropy organization to assist youth in self-development. In his free time, Mikael enjoys weightlifting, martial arts, and studying psychology.",
-            ]
-          },
-          {
-            name: "Luis Velasquez",
-            image: "assets/speakers/Luis Velasquez.JPG",
-            desc: [
-              "Luis is a 5th year Cal Poly Pomona Computer Information Systems student. His emphasis is in Information Security and Forensics and he plans to graduate in the Spring of 2022. Current affiliations include membership in both Cal Poly’s distinguished MISSA Data Analytics team, as well as the Analytics and Marketing Insights Club. Career goals include proficiency in pentesting as well as work in the cybersecurity field. Interests and hobbies include being metal drumming, weight lifting, and video editing.",
-            ]
-          },
-          {
-            name: "Erik Endress",
-            image: "assets/speakers/Erik Endress.jpg",
-            desc: [
-              "Erik Endress is a fourth-year Senior at Cal Poly Pomona, and a transfer student from Chaffey College, who will be graduating Spring 2021. He is a CIS major, with an emphasis in Business Intelligence. He is a member of SWIFT and MISSA, and is on the Data Analytics team. Career goals include working in some way in the healthcare industry, utilizing what he has learned to help people. ",
-            ]
-          },
-          {
-            name: "Abhishek Yenumula",
-            image: "assets/speakers/Abhishek Yenumula.jpg",
-            desc: [
-              "Abhishek Yenumula is a fourth-year Computer Information Systems student who will be graduating in Spring 2021. His emphasis is in the Application Development field, but is interested in the Business Intelligence field. He is the current CIO and Co-Director of Data Analytics of MISSA and hopes to work as a Data Analyst or in the development field after graduation.",
-            ]
-          },
-          {
-            name: "Chris Lee",
-            image: "assets/speakers/Chris Lee.JPG",
-            desc: [
-              "Chris Lee is a fourth-year student at Cal Poly Pomona, and a transfer student from Mt. San Antonio College. He is majoring in Computer Information Systems with an emphasis in Business Intelligence. He is the current Director of Events and Co-Director of Data Analytics for MISSA. He is also a member of the Analytics Marketing Insights(AMI) club as well. He hopes to work in the analytics or development field after graduation.",
-            ]
-          },
-        ]
-      },
-      {
-        title: "Workshop: Adversarial Simulation",
-        date: "1:00PM - 2:00PM (Blue-Teaming) & 4:30PM - 5:30 PM (Red-Teaming) (PST)",
-        desc: [
-          "SWIFT will be hosting a Adversarial Simulation workshop this Saturday for Tech Symposium! We will be discussing the basics of blue-teaming, such as how to fix misconfigurations on both Windows and Linux machines and hardening various services. In addition, we will also be walking through how to hack your way into those systems! This workshop will require a separate registration and will be limited to the first 30 sign ups. If you are within the first 30, you will receive an email for further instructions on the required software to install beforehand as well as the Zoom Link.", 
-        ],
-        link: [
-          {
-            name: "Google Forms",
-            url: "https://da.gd/ZQI8Y",
-          },
-        ],
-        speaker: [
-          {
-            name: "SWIFT Operations Team",
-            image: "assets/speakers/swiftops.jpg",
-            desc: [
-              "The SWIFT Operations Team is a group consisting of motivated CPP students that collaborate to configure the infrastructure and services necessary to support various SWIFT projects, as well as develop the curriculum for SWIFT's general meetings and workshops.",
-            ]
-          },
-        ]
-      }
+    // {
+    //   title: "CALDERA: Beyond Adversary Emulation with MITRE ATT&CK",
+    //   date: "12:00PM - 12:55PM (PST)",
+    //   desc: [
+    //     "The suite of capabilities and functionality in the open source CALDERA platform from MITRE provides a unique nexus point for disparate information security governance, IT, DevOps, security operations, and compliance processes. This presentation will provide context about disconnected technology risk management processes in the real world organizations that SWIFT members may be employed at and introduce CALDERA as a functional and capable tool to improve risk management and information security collaboration and as a gateway to bring the ATT&CK knowledge base into organizations.",
+    //   ],
+    //   link: [
+    //     {
+    //       name: "Zoom",
+    //       url: "https://cpp.zoom.us/j/84551875537",
+    //     },
+    //   ],
+    //   speaker: [
+    //     {
+    //       name: "Jon King",
+    //       image: "assets/speakers/Jon King.JPG",
+    //       desc: [
+    //         "Jon is an IT and information security leader with over 17 years of experience managing, administering, engineering, and architecting enterprise IT environments. As a consultant, he advises leaders in risk management, technology strategy, compliance, and performs deep-dive assessments of information security programs including framework-focused reviews, vulnerability assessments, penetration tests, red team engagements, purple team workshops, and implementation support.", 
+    //         "Jon’s prior experience includes active duty service with the USMC, service as a federal civilian employee, and roles in IT and information security in the private sector.",
+    //       ]
+    //     }, 
+    //   ]
+    // }, 
+    // {
+    //   title: "The Weaponizing of Blockchain",
+    //   date: "12:00PM - 12:55PM (PST)",
+    //   desc: [
+    //     "This talk will include the following topics:",
+    //     "-Weaponizing Blockchain",
+    //     "-Current exploit history including Proof of Concept", 
+    //     "-Nation/state cryptocurrency manipulation, and preserving blockchain integrity",
+    //     "-Preserving Blockchain Integrity",  
+    //   ],
+    //   link: [
+    //     {
+    //       name: "Zoom",
+    //       url: "https://cpp.zoom.us/j/87469552077",
+    //     },
+    //   ],
+    //   speaker: [
+    //     {
+    //       name: "Nicole Fellouris",
+    //       image: "assets/speakers/Nicole Fellouris Pic.jpg",
+    //       desc: [
+    //         "Ms. Nicole Fellouris’ career in IT Security and Ethical Hacking spans over 20 years. She has been in the security industry since 1996 as an ethical hacker and security consultant. She has been involved in the remediation and mitigation of incidents related to network intrusion, data theft/corruption, viral outbreaks, fraud, extortion, espionage, cyber harassment, and online misrepresentation.", 
+    //         "In 2020, she assisted in launching the cyber, cloud security and compliance startup firm, Flipside Security, with her long-term mentor, the esteemed Anthony Johnson, as CEO.", 
+    //         "When her advisory, CISO and neuroscientist hat is off, she’s a doting mother to her seven-year-old daughter and Schutzhund-trained German Shepherd.",
+    //       ]
+    //     }, 
+    //   ]
+    // }, 
+    // {
+    //   title: "Intro to Hardware RE",
+    //   date: "1:00PM - 1:55PM (PST)",
+    //   desc: [
+    //     "The Intro to Hardware RE talk will guide beginners through taking apart and understanding digital electronic devices. It will overview commonly used tools such as multimeters, logic analyzers, and soldering tools as well as software tools for building a schematic and interacting with hardware components.",
+    //   ],
+    //   link: [
+    //     {
+    //       name: "Zoom",
+    //       url: "https://cpp.zoom.us/j/84551875537",
+    //     },
+    //   ],
+    //   speaker: [
+    //     {
+    //       name: "April Chaire",
+    //       image: "assets/speakers/April Chaire Pic.png",
+    //       desc: [
+    //         "April has spent the past five years as an engineer in the defense industry which included developing avionic and navigation systems. Currently, she works on reverse engineering and pentesting embedded systems while part-timing as an M.S. Computer Engineering student.",
+    //       ]
+    //     }, 
+    //   ]
+    // }, 
+    // {
+    //   title: "Tales from a Hacker and QSA",
+    //   date: "1:00PM - 1:55PM (PST)",
+    //   desc: [
+    //     "The increasing frequency and variety of cyberattacks leaves organizations’ data susceptible to breaches. This presentation will educate and inform attendees on several common attack scenarios that penetration testers and hackers use to compromise a corporate environment and what is needed from a compliance perspective to protect organizations. We will cover straight forward mitigation suggestions that can be implemented in your company today.",
+    //     "Learning Objectives: identify names of common names of attacks and data breaches, recognize the impact of data breaches on organizations, learn how to protect your data and other assets from cyberattacks, learn what you can do proactively from a compliance perspective.",
+    //   ],
+    //   link: [
+    //     {
+    //       name: "Zoom",
+    //       url: "https://cpp.zoom.us/j/87469552077",
+    //     },
+    //   ],
+    //   speaker: [
+    //     {
+    //       name: "Sheryl Benedict",
+    //       image: "assets/speakers/Headshot Benedict-Sheryl.jpg",
+    //       desc: [
+    //         "Sheryl Benedict is a Manager at LBMC Information Security and holds several certifications. She is an alumni from Cal Poly Pomona. Sheryl Benedict draws on her more than 15 years of experience as an information security and compliance professional and assessor, and IT auditor providing services to clients ranging from small private companies to Fortune 500 Global Organizations. Sheryl is experienced in performing assessments and testing compliance with PCI DSS assessments, SOC reporting, SOX, FIEL/JSOX, HIPAA, Security Risk Assessments, ACAB, IT Internal Controls and Business Process Control reviews, and e-Discovery Computer Forensics throughout several industries.", 
+    //         "She is also active in and continues to volunteer and support many non-profit organizations such as Dyer Observatory and The Glade Church Quilt Ministry.",
+    //       ]
+    //     }, 
+    //     {
+    //       name: "Daniel Nguyen",
+    //       image: "assets/speakers/Daniel N. Web Headshots.jpg",
+    //       desc: [
+    //         "Daniel Nguyen is a Lead Security Consultant at LBMC Information Security and holds the OSCP and GWAPT certifications. Daniel was a former cancer research biologist and has since transitioned into penetration testing.", 
+    //         "Daniel is highly experienced with various names of technical assessments including web application assessments, internal/external penetration tests, physical security assessments, social engineering, and phishing. He focuses on stealthy techniques such as Living off the Land (LOL), Open Source Intelligence (OSINT), and misconfiguration abuse. This led to his focus on exploiting human behavior and masking his IOCs to evade detection.", 
+    //         "He believes in a collaborative approach to security and penetration tests often evolve into purple teaming exercises where he works with clients to improve their detection and monitoring defenses.",
+    //       ]
+    //     }, 
+    //   ]
+    // }, 
+    // {
+    //   title: "Privacy & Security Postures and Programs",
+    //   date: "2:00PM - 2:55PM (PST)",
+    //   desc: [
+    //     "Each business approaches cybersecurity and privacy differently, based on the philosophy of their executives and the business's profit models and risk assessments. I hope to illuminate some of the different paradigms students can expect based on a company's industry and stage of growth, in order to help them understand the skills they need to develop and factors they should consider depending on who they wish to work for.",
+    //   ],
+    //   link: [
+    //     {
+    //       name: "Zoom",
+    //       url: "https://cpp.zoom.us/j/84551875537",
+    //     },
+    //   ],
+    //   speaker: [
+    //     {
+    //       name: "Alex Segal",
+    //       image: "assets/speakers/Alex Segal Pic.jpg",
+    //       desc: [
+    //         "Alex did his undergraduate research at Cal Poly Pomona under Dr. Husain and graduated in 2015. Since then, he has worked as a Privacy and Security Engineer at several companies, large and small. Currently, he is employed as a Privacy Engineer at HP.",
+    //       ]
+    //     }, 
+    //   ]
+    // }, 
+    // {
+    //   title: "Intro to Terraform",
+    //   date: "2:00PM - 2:55PM (PST)",
+    //   desc: [
+    //     "Infrastructure as code is becoming ubiquitous for companies due to its ability to accelerate dev time, allow for easy change control, and quickly spin up and spin down environments. In this presentation/workshop, we'll discuss some core patterns and concepts to get you comfortable with Terraform so you can quickly understand any Terraform codebase you come across!",
+    //   ],
+    //   link: [
+    //     {
+    //       name: "Zoom",
+    //       url: "https://cpp.zoom.us/j/87469552077",
+    //     },
+    //   ],
+    //   speaker: [
+    //     {
+    //       name: "Chris Schafer",
+    //       image: "assets/speakers/Chris Shafer Pic.png",
+    //       desc: [
+    //         "Chris Schafer (swiss) started his career after playing CCDC for Cal Poly Pomona. He currently leads Security Operations at a fintech company in the Bay Area, building a SOC-less team focused on detection and automated response. Some of his major accomplishments include designing and building automated phishing and malware analysis systems for a large bank and earning a black badge at Defcon in Capture The Packet with Wasabi in 2019.",
+    //       ]
+    //     }, 
+    //   ]
+    // }, 
+    // {
+    //   title: "Workshop: Web Security Testing Like a Hacker",
+    //   date: "3:00PM - 4:25PM (PST)",
+    //   desc: [
+    //     "As the skills shortage for qualified practitioners in the cyber security field continues to worsen, organizations have been relying on automation to fill the void in their security testing needs. While automation and AI have proven effective for identifying weaknesses such as injection vulnerabilities and overflows, automation leaves dangerous gaps in things like workflow errors and those weaknesses not easily identified by cookie-cutter methods.",
+    //     "This workshop walks participants though an online hacker escape room using the OWASP ZAP tool. This will teach the participants to use this security testing tool while training them to use their observational skills to pen test a web site beyond typical automation. Because of the nature of this workshop, all skill levels are able to participate and complete beginners are encouraged to attend. As most won’t finish the escape room during the workshop, the instructor will hold two follow-up sessions to coach those who are stuck and wanting to continue.",
+    //      "To participate, attendees must have a system with the open source OWASP ZAP software <a href='https://www.zaproxy.org'>https://www.zaproxy.org</a> installed, which runs on any platform.",
+    //     ],
+    //     link: [
+    //       {
+    //         name: "Zoom",
+    //         url: "https://cpp.zoom.us/j/84551875537",
+    //       },
+    //     ],
+    //     speaker: [
+    //       {
+    //         name: "Mike Landeck",
+    //         image: "assets/speakers/MikeLandeckBioSIS (2).jpg",
+    //         desc: [
+    //           "Mike Landeck led the security implementation and then operationalized two of the Country’s largest cloud-based healthcare IT projects. Mike has been responsible for the overall security of systems with financial transactions of over $4 billion per month, as well as security programs regulated by HIPAA, SOX, PCI, FISMA (NIST 800-53), the IRS (FTI IRS 1075), and FedRAMP.", 
+    //           "Mike is an application security testing expert and has consulted on security in the SDLC to dozens of commercial products. He is a frequent conference speaker and workshop presenter focusing on such topics as software security testing and security program management. Mike is a CISSP as well as a certified professional Cloud Security Manager.",
+    //         ]
+    //       }, 
+    //     ]
+    //   },
+    //   {
+    //     title: "Workshop: Binary Exploitation for Beginners",
+    //     date: "3:00PM - 4:25PM (PST)",
+    //     desc: [
+    //       "Learn the fundamentals of binary exploitation and memory corruption in this friendly, hands-on workshop. We'll cover the basics of how executables work in Linux, how executables/processes use memory, how memory corruption attacks work, and the tools and techniques you can use to exploit these vulnerabilities.",
+    //       "We'll walk through exploitation steps together and take control of vulnerable programs to get access to their underlying operating/file systems with escalated privileges. This workshop will use Kali Linux/Ubuntu and various command line tools. Familiarity with Linux command line usage and basic programming (Python/C/etc.) is recommended!",
+    //     ],
+    //     link: [
+    //       {
+    //         name: "Zoom",
+    //         url: "https://cpp.zoom.us/j/87469552077",
+    //       },
+    //     ],
+    //     speaker: [
+    //       {
+    //         name: "datagram",
+    //         image: "assets/speakers/Datagram.png",
+    //         desc: [
+    //           "Data is an expert in the fields of cyber security, hacking, reverse engineering, binary exploitation, and physical security. He runs the upcoming LayerOne security conference and is a founding member of the LA Hackerspace Null Space Labs.",
+    //         ]
+    //       }, 
+    //     ]
+    //   },
+    //   {
+    //     title: "Rock the Cash Box",
+    //     date: "4:30PM - 5:25PM (PST)",
+    //     desc: [
+    //       "Hacking ATMs, from obtaining ATMs to decoding protocols. This talk will cover how embedded research is conducted.",
+    //     ],
+    //     link: [
+    //       {
+    //         name: "Zoom",
+    //         url: "https://cpp.zoom.us/j/84551875537",
+    //       },
+    //     ],
+    //     speaker: [
+    //       {
+    //         name: "wasabi",
+    //         image: "assets/speakers/Wasabi Pic.jpg",
+    //         desc: [
+    //           "Tinker of electronics and perpetual volunteer. Helps make CPTC and CCDC happen.",
+    //         ]
+    //       }, 
+    //     ]
+    //   },
+    //   {
+    //     title: "Intro to 3D Printing for Hobbyists",
+    //     date: "4:30PM - 5:25PM (PST)",
+    //     desc: [
+    //       "An introduction to 3D printing for hobbyists. This talk will cover the history, current uses, and future of 3D printers. Technical information will include how a basic printer works, common material names, and an overview of modeling and slicing. It will include some basic advice for choosing your first 3D printer and recommendations of where to get started.",
+    //     ],
+    //     link: [
+    //       {
+    //         name: "Zoom",
+    //         url: "https://cpp.zoom.us/j/87469552077",
+    //       },
+    //     ],
+    //     speaker: [
+    //       {
+    //         name: "David Hunter",
+    //         image: "assets/speakers/David Hunter Pic.jpg",
+    //         desc: [
+    //           "Davie (David Hunter) graduated from Cal Poly Pomona in 2010 after participating in SWIFT, CCDC, and UBSS. He started his career working for Cal Poly Pomona's I&IT Networks Department, moved on to being a Senior Network Engineer for a Cisco VAR, and is currently the Senior Network Engineer at King's Hawaiian in Torrance, CA. His background draws heavily on his experience during CCDC in learning networking, Linux, and Windows.", 
+    //           "These days he's actively involved in the south LA tech group known as Reverse Shell Corporation, along with being a core organizer of the ShellCon information security conference that takes place in the Fall every year.",
+    //         ]
+    //       }, 
+    //     ],
+    //   },
+    //   {
+    //     title: "An Intro to Embedded Device Security Testing",
+    //     date: "5:30PM - 6:25PM (PST)",
+    //     desc: [
+    //       "Embedded Devices are everywhere; from IoT soil sensors to your brand new washing machine - the amount of connected products hitting the market has exploded.", 
+    //       "This talk aims to give you a baseline to start an embedded device assessment. While not a comprehensive walk through of embedded device security, the aim is to get you familiar with the concepts, tools, resources, and strategies of embedded device security assessment. In this talk, I will walk you through, and answer some of the toughest questions and situations I have encountered within my 20 years in the industry specifically focused around product security and embedded devices.",
+    //     ],
+    //     link: [
+    //       {
+    //         name: "Zoom",
+    //         url: "https://cpp.zoom.us/j/84551875537",
+    //       },
+    //     ],
+    //     speaker: [
+    //       {
+    //         name: "John Stauffacher",
+    //         image: "assets/speakers/placeholder.png",
+    //         desc: [
+    //           "TBA",
+    //         ]
+    //       },
+    //     ]
+    //   },
+    //   {
+    //     title: "Solarwinds Case Study: Overview, Data Analysis, and Industry Perspective.",
+    //     date: "5:30PM - 6:25PM (PST)",
+    //     desc: [
+    //       "The MISSA DA team will be presenting a research topic regarding the SolarWinds hack. They will discuss how big data is utilized in the cybersecurity field, background and methodology of the SolarWinds hack, share information from interviews they conducted with cybersecurity professionals, and present interesting visualizations related to cybersecurity.",
+    //     ],
+    //     link: [
+    //       {
+    //         name: "Zoom",
+    //         url: "https://cpp.zoom.us/j/87469552077",
+    //       },
+    //     ],
+    //     speaker: [{
+    //         name: "Nick Bias",
+    //         image: "assets/speakers/Nick Bias.JPG",
+    //         desc: [
+    //           "Nick Bias is a fifth-year student in his final semester. He switched majors his third year from Architecture to Computer Information Systems with an emphasis in Business Intelligence, so he has a mixed background in design, technology, and business. He plans to graduate by Spring 2021. He is a member of the MISSA Data Analytics team, so he hopes to gain some experience from this event, by applying what he has learned to a real-world topic.",
+    //         ]
+    //       },
+    //       {
+    //         name: "Mikael Melsew",
+    //         image: "assets/speakers/Mikael Melsew.JPG",
+    //         desc: [
+    //           "Mikael Melsew, born and raised in the Silicon Valley, is a senior at Cal Poly Pomona planning to graduate in the fall of 2021. He studies Computer Information Systems with an emphasis in Information Security and Forensics. Some of his career goals include working in the information security field and starting a philanthropy organization to assist youth in self-development. In his free time, Mikael enjoys weightlifting, martial arts, and studying psychology.",
+    //         ]
+    //       },
+    //       {
+    //         name: "Luis Velasquez",
+    //         image: "assets/speakers/Luis Velasquez.JPG",
+    //         desc: [
+    //           "Luis is a 5th year Cal Poly Pomona Computer Information Systems student. His emphasis is in Information Security and Forensics and he plans to graduate in the Spring of 2022. Current affiliations include membership in both Cal Poly’s distinguished MISSA Data Analytics team, as well as the Analytics and Marketing Insights Club. Career goals include proficiency in pentesting as well as work in the cybersecurity field. Interests and hobbies include being metal drumming, weight lifting, and video editing.",
+    //         ]
+    //       },
+    //       {
+    //         name: "Erik Endress",
+    //         image: "assets/speakers/Erik Endress.jpg",
+    //         desc: [
+    //           "Erik Endress is a fourth-year Senior at Cal Poly Pomona, and a transfer student from Chaffey College, who will be graduating Spring 2021. He is a CIS major, with an emphasis in Business Intelligence. He is a member of SWIFT and MISSA, and is on the Data Analytics team. Career goals include working in some way in the healthcare industry, utilizing what he has learned to help people. ",
+    //         ]
+    //       },
+    //       {
+    //         name: "Abhishek Yenumula",
+    //         image: "assets/speakers/Abhishek Yenumula.jpg",
+    //         desc: [
+    //           "Abhishek Yenumula is a fourth-year Computer Information Systems student who will be graduating in Spring 2021. His emphasis is in the Application Development field, but is interested in the Business Intelligence field. He is the current CIO and Co-Director of Data Analytics of MISSA and hopes to work as a Data Analyst or in the development field after graduation.",
+    //         ]
+    //       },
+    //       {
+    //         name: "Chris Lee",
+    //         image: "assets/speakers/Chris Lee.JPG",
+    //         desc: [
+    //           "Chris Lee is a fourth-year student at Cal Poly Pomona, and a transfer student from Mt. San Antonio College. He is majoring in Computer Information Systems with an emphasis in Business Intelligence. He is the current Director of Events and Co-Director of Data Analytics for MISSA. He is also a member of the Analytics Marketing Insights(AMI) club as well. He hopes to work in the analytics or development field after graduation.",
+    //         ]
+    //       },
+    //     ]
+    //   },
+    //   {
+    //     title: "Workshop: Adversarial Simulation",
+    //     date: "1:00PM - 2:00PM (Blue-Teaming) & 4:30PM - 5:30 PM (Red-Teaming) (PST)",
+    //     desc: [
+    //       "SWIFT will be hosting a Adversarial Simulation workshop this Saturday for Tech Symposium! We will be discussing the basics of blue-teaming, such as how to fix misconfigurations on both Windows and Linux machines and hardening various services. In addition, we will also be walking through how to hack your way into those systems! This workshop will require a separate registration and will be limited to the first 30 sign ups. If you are within the first 30, you will receive an email for further instructions on the required software to install beforehand as well as the Zoom Link.", 
+    //     ],
+    //     link: [
+    //       {
+    //         name: "Google Forms",
+    //         url: "https://da.gd/ZQI8Y",
+    //       },
+    //     ],
+    //     speaker: [
+    //       {
+    //         name: "SWIFT Operations Team",
+    //         image: "assets/speakers/swiftops.jpg",
+    //         desc: [
+    //           "The SWIFT Operations Team is a group consisting of motivated CPP students that collaborate to configure the infrastructure and services necessary to support various SWIFT projects, as well as develop the curriculum for SWIFT's general meetings and workshops.",
+    //         ]
+    //       },
+    //     ]
+    //   }
       
     ]

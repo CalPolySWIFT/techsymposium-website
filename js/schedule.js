@@ -45,38 +45,63 @@ function Links(data) {
 }
 {/* <div class="collapseElement${eventData[data]} card-wrapper col-md-4 col-lg-4 in"> */}
 
-function Speaker(data) {
+function Modal(data) {
+    // let HTML = data.link.map((i) => {
+    // }).join("")
+    // return HTML;
+}
 
-    let HTML = data.speaker.map((i) => {
+function SpeakerHeader(speakerData) {
+    return `<h5 class="card-title border-round-top no-margin">${speakerData.name}</h5>`
+}
+
+function SpeakerContent(speakerData) {
+    return `
+        <div class="speaker-card row g-0">
+            <div class="img-wrapper border col-md-4 col-sm-4 col-xs-4 flex-centered border-round-top border-round-bottom" >
+                <img src="${speakerData.image}" class="img-speaker">
+            </div>
+            <div class="col-md-8 col-sm-8 col-xs-8 speaker-text-wrapper">
+                <div class="">
+                    <p class="card-text speaker-text">${speakerData.desc}</p>
+                </div>
+                <div class="speaker-text-overlay"></div>
+            </div>
+        </div>
+    `
+}
+
+function ModalBox(data) {
+    // let HTML = data.link.map((i) => {
+    // }).join("")
+    // return HTML;
+}
+
+function ModalContent(data) {
+    let HTML = data.desc.map((data) => {
+        return `<p class="card-text speaker-modal-text">${data}</p>`
+    }).join("")
+    return HTML;
+}
+
+function Speaker(data) {
+    let HTML = data.speaker.map((speaker) => {
         // replace all whitespaces https://stackoverflow.com/a/55303526
-        let nameID = i.name.replace(/\s/g, "");
+        let nameID = speaker.name.replace(/\s/g, "");
         return `
             <div id="insertInnerCard" class=" row flex-centered col-md-4 col-lg-4" >
 
             <!-- Trigger the modal with a button -->
             <div class="" data-toggle="modal" data-target="#modal${nameID}">
             
-                <!--Header-->
-                <h5 class="card-title border-round-top no-margin">${i.name}</h5>
-                
+                <!--Speaker Header Component-->
+                ${SpeakerHeader(speaker)}
+
                 <!--Content-->
                 <div class="card speaker border border-round-bottom mb-3 ">
-                    <div class="speaker-card">
-                        <div class="row g-0">
-                            <div class="img-wrapper border col-md-4 col-sm-4 col-xs-4 flex-centered border-round-top border-round-bottom" >
-                                <!--<div class="border-round-top border-round-bottom">-->
-                                    <img src="${i.image}" class="img-speaker">
-                                <!--</div>-->
-                            </div>
-                            <div class="col-md-8 col-sm-8 col-xs-8 speaker-text-wrapper">
-                                <div class="">
-                                    <p class="card-text speaker-text">${i.desc}</p>
-                                </div>
-                                <div class="speaker-text-overlay"></div>
-                            </div>
-                        </div>
-                    </div>
 
+                    <!--Speaker Content Component-->
+                    ${SpeakerContent(speaker)}
 
                     <!-- Modal -->
                     <div class="modal " id="modal${nameID}" role="dialog">
@@ -84,19 +109,24 @@ function Speaker(data) {
 
                             <!-- Modal content-->
                             <div class="modal-content">
+
+                                <!--Modal Header Component-->
                                 <div class="modal-header">
                                     <button type="button" class="close">&times;</button>
-                                    <h4 class="modal-title text-center">${i.name}</h4>
+                                    <h4 class="modal-title text-center">${speaker.name}</h4>
                                 </div>
+
+                                <!--Modal Content Component-->
                                 <div class="modal-body">
                                     <div class="row flex-centered">
                                         <div class="img-wrapper border col-md-4 ">
-                                            <img src="${i.image}" class="margin-centered flex-centered img-width-100">
+                                            <img src="${speaker.image}" class="margin-centered flex-centered img-width-100">
                                         </div>
                                         <div class="col-md-8">
 
                                             <!--insert modal box speaker text-->
                                             <div id="insertModal" class="card-body">
+                                                ${ModalContent(speaker)}
                                             </div>
                                         </div>
                                     </div>
@@ -116,15 +146,5 @@ function Speaker(data) {
     return HTML;
 }
 
-function Modal(data) {
-    // let HTML = data.link.map((i) => {
-    // }).join("")
-    // return HTML;
-}
 
-function ModalBox(data) {
-    // let HTML = data.link.map((i) => {
-    // }).join("")
-    // return HTML;
-}
 
