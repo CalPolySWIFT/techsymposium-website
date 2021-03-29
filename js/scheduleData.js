@@ -68,6 +68,11 @@ export const data = [
           name: "Recording",
           url: "https://youtu.be/Lr30jY-NgqY",
         },
+        {  
+          name: "Slides",
+          url: "../assets/speakers/mdeblois-osint-basics-swift-mar2021 (1).pdf",  
+         },    
+        },
       ],
       speaker: [
         {
