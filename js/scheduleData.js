@@ -411,6 +411,10 @@ export const data = [
             name: "Recording",
             url: "https://youtu.be/VyNrFmcw4WA",
           },
+          {  
+          name: "Slides",
+          url: "assets/speakers/20210313-01-SWIFT-PRESENTATION.pptx.pdf",      
+         },
         ],
         speaker: [
           {
