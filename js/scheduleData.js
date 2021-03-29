@@ -70,7 +70,7 @@ export const data = [
         },
         {  
           name: "Slides",
-          url: "../assets/speakers/mdeblois-osint-basics-swift-mar2021 (1).pdf",      
+          url: "assets/speakers/mdeblois-osint-basics-swift-mar2021.pdf",      
         },
       ],
       speaker: [
