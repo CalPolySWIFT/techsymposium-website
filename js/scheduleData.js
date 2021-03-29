@@ -159,6 +159,10 @@ export const data = [
           name: "Recording",
           url: "https://youtu.be/aHa_8Dp88b0",
         },
+        {  
+          name: "Slides",
+          url: "assets/speakers/2021 CPP Tech Symposium Jon King.pdf",      
+        },
       ],
       speaker: [
         {
@@ -233,6 +237,10 @@ export const data = [
           name: "Recording",
           url: "https://youtu.be/0hbGh4s18kQ",
         },
+        {  
+          name: "Slides",
+          url: "assets/speakers/Tales of a Hacker and QSA-Lessons Learned From A Year Of Compromises_CalPoly.pdf",      
+        },   
       ],
       speaker: [
         {
