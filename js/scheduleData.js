@@ -59,9 +59,9 @@ export const data = [
       date: "10:00AM - 10:55AM (PST)",
       desc: [
         "Come learn the basics of OSINT, but for hunting Internet infrastructure. Whether you're a threat hunter searching for adversaries, or a defender protecting your organization's network, understanding how to leverage OSINT approaches to identifying infrastructure is an important skill to learn. What I’ll cover in this session?",
-        "-OSINT Basics: Let’ s talk about what it is, why it’s important, how it’s used in the world of Internet infrastructure. ",
-        "-Understanding Different Use Cases: We’ll take a quick look at examples of how this is valuable for threat hunters, security practitioners, as well as researchers. ",
-        "-Practice, practice, practice: I’ll end this talk by sharing out some good resources and ideas for how you can sharpen your OSINT skills for security research or for better organization defense.",
+        "- OSINT Basics: Let’ s talk about what it is, why it’s important, how it’s used in the world of Internet infrastructure. ",
+        "- Understanding Different Use Cases: We’ll take a quick look at examples of how this is valuable for threat hunters, security practitioners, as well as researchers. ",
+        "- Practice, practice, practice: I’ll end this talk by sharing out some good resources and ideas for how you can sharpen your OSINT skills for security research or for better organization defense.",
       ],
       link: [
         {
@@ -70,8 +70,7 @@ export const data = [
         },
         {  
           name: "Slides",
-          url: "../assets/speakers/mdeblois-osint-basics-swift-mar2021 (1).pdf",  
-         },    
+          url: "../assets/speakers/mdeblois-osint-basics-swift-mar2021 (1).pdf",      
         },
       ],
       speaker: [
