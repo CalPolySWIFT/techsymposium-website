@@ -52,7 +52,7 @@ for(let card = data.length-1; card > -1; card--) {
     pos = document.getElementById("insertButtons");
     // for(let i = data[card].link.length-1; i > -1; i--) {
     for(let i = data[card].link.length-1; i > -1; i--) {
-        template = `<button class="btn center-block"><a href="${data[card].link[i].url}">${data[card].link[i].name} Link</a></button>`;
+        template = `<button class="btn center-block"><a href="${data[card].link[i].url}">${data[card].link[i].name}</a></button>`;
         pos.insertAdjacentHTML("afterbegin", template);
 
     }
