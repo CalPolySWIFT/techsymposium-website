@@ -12,10 +12,10 @@ export const data = [
           url: "https://cpp.zoom.us/j/84551875537",
         },
         // Internal Link
-        // {
-        //   name: "PDF",
-        //   url: "../assets/TechSymposiumScheduleBlue2021.png",
-        // },
+         {
+           name: "Slides",
+           url: "../assets/TechSymposiumScheduleBlue2021.png",
+         },
       ],
       speaker: [
         {
