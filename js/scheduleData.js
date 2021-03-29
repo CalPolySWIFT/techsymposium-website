@@ -7,15 +7,15 @@ export const data = [
       ],
       link: [
         // External Link
-        {
-          name: "Zoom",
-          url: "https://cpp.zoom.us/j/84551875537",
-        },
+        //{
+        //  name: "Recording",
+        //  url: "https://youtu.be/VyNrFmcw4WA",
+        //},
         // Internal Link
-         {
-           name: "Slides",
-           url: "../assets/TechSymposiumScheduleBlue2021.png",
-         },
+        // {
+        //   name: "Slides",
+        //   url: "../assets/TechSymposiumScheduleBlue2021.png",
+        // },
       ],
       speaker: [
         {
@@ -40,8 +40,8 @@ export const data = [
       ],
       link: [
         {
-          name: "Zoom",
-          url: "https://cpp.zoom.us/j/84551875537",
+          name: "Recording",
+          url: "https://youtu.be/doQFRUQlbqY",
         },
       ],
       speaker: [
@@ -65,8 +65,8 @@ export const data = [
       ],
       link: [
         {
-          name: "Zoom",
-          url: "https://cpp.zoom.us/j/87469552077",
+          name: "Recording",
+          url: "https://youtu.be/Lr30jY-NgqY",
         },
       ],
       speaker: [
@@ -88,10 +88,10 @@ export const data = [
         "This talk also includes an interactive Q&A portion!",
       ],
       link: [
-        {
-          name: "Zoom",
-          url: "https://cpp.zoom.us/j/84551875537",
-        },
+       // {
+       //   name: "Zoom",
+       //   url: "https://cpp.zoom.us/j/84551875537",
+       // },
       ],
       speaker: [
         {
@@ -152,8 +152,8 @@ export const data = [
       ],
       link: [
         {
-          name: "Zoom",
-          url: "https://cpp.zoom.us/j/84551875537",
+          name: "Recording",
+          url: "https://youtu.be/aHa_8Dp88b0",
         },
       ],
       speaker: [
@@ -172,16 +172,16 @@ export const data = [
       date: "12:00PM - 12:55PM (PST)",
       desc: [
         "This talk will include the following topics:",
-        "-Weaponizing Blockchain",
-        "-Current exploit history including Proof of Concept", 
-        "-Nation/state cryptocurrency manipulation, and preserving blockchain integrity",
-        "-Preserving Blockchain Integrity",  
+        "- Weaponizing Blockchain",
+        "- Current exploit history including Proof of Concept", 
+        "- Nation/state cryptocurrency manipulation, and preserving blockchain integrity",
+        "- Preserving Blockchain Integrity",  
       ],
       link: [
-        {
-          name: "Zoom",
-          url: "https://cpp.zoom.us/j/87469552077",
-        },
+       // {
+       //   name: "Zoom",
+       //   url: "https://cpp.zoom.us/j/87469552077",
+       // },
       ],
       speaker: [
         {
@@ -203,8 +203,8 @@ export const data = [
       ],
       link: [
         {
-          name: "Zoom",
-          url: "https://cpp.zoom.us/j/84551875537",
+          name: "Recording",
+          url: "https://youtu.be/wxYXt_nPg5w",
         },
       ],
       speaker: [
@@ -226,8 +226,8 @@ export const data = [
       ],
       link: [
         {
-          name: "Zoom",
-          url: "https://cpp.zoom.us/j/87469552077",
+          name: "Recording",
+          url: "https://youtu.be/0hbGh4s18kQ",
         },
       ],
       speaker: [
@@ -258,8 +258,8 @@ export const data = [
       ],
       link: [
         {
-          name: "Zoom",
-          url: "https://cpp.zoom.us/j/84551875537",
+          name: "Recording",
+          url: "https://youtu.be/Qsitxhd9oLY",
         },
       ],
       speaker: [
@@ -280,8 +280,8 @@ export const data = [
       ],
       link: [
         {
-          name: "Zoom",
-          url: "https://cpp.zoom.us/j/87469552077",
+          name: "Recording",
+          url: "https://youtu.be/FQLJl4asDKw",
         },
       ],
       speaker: [
@@ -304,8 +304,8 @@ export const data = [
         ],
         link: [
           {
-            name: "Zoom",
-            url: "https://cpp.zoom.us/j/84551875537",
+            name: "Recording",
+            url: "https://youtu.be/WlKdxCDsj7g",
           },
         ],
         speaker: [
@@ -328,8 +328,8 @@ export const data = [
         ],
         link: [
           {
-            name: "Zoom",
-            url: "https://cpp.zoom.us/j/87469552077",
+            name: "Recording",
+            url: "https://youtu.be/44D5HSR1Fas",
           },
         ],
         speaker: [
@@ -350,8 +350,8 @@ export const data = [
         ],
         link: [
           {
-            name: "Zoom",
-            url: "https://cpp.zoom.us/j/84551875537",
+            name: "Recording",
+            url: "https://youtu.be/33Y2T0yw3Do",
           },
         ],
         speaker: [
@@ -372,8 +372,8 @@ export const data = [
         ],
         link: [
           {
-            name: "Zoom",
-            url: "https://cpp.zoom.us/j/87469552077",
+            name: "Recording",
+            url: "https://youtu.be/3DcyMGBf2ao",
           },
         ],
         speaker: [
@@ -396,8 +396,8 @@ export const data = [
         ],
         link: [
           {
-            name: "Zoom",
-            url: "https://cpp.zoom.us/j/84551875537",
+            name: "Recording",
+            url: "https://youtu.be/VyNrFmcw4WA",
           },
         ],
         speaker: [
@@ -418,8 +418,8 @@ export const data = [
         ],
         link: [
           {
-            name: "Zoom",
-            url: "https://cpp.zoom.us/j/87469552077",
+            name: "Recording",
+            url: "https://youtu.be/RIubhfJ3_yk",
           },
         ],
         speaker: [{
@@ -472,10 +472,10 @@ export const data = [
           "SWIFT will be hosting a Adversarial Simulation workshop this Saturday for Tech Symposium! We will be discussing the basics of blue-teaming, such as how to fix misconfigurations on both Windows and Linux machines and hardening various services. In addition, we will also be walking through how to hack your way into those systems! This workshop will require a separate registration and will be limited to the first 30 sign ups. If you are within the first 30, you will receive an email for further instructions on the required software to install beforehand as well as the Zoom Link.", 
         ],
         link: [
-          {
-            name: "Google Forms",
-            url: "https://da.gd/ZQI8Y",
-          },
+         // {
+         //   name: "Google Forms",
+         //   url: "https://da.gd/ZQI8Y",
+         // },
         ],
         speaker: [
           {
