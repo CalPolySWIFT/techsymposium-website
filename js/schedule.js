@@ -12,7 +12,9 @@ eventData.map((event) => {
 
         <div class="card border border-round-bottom">
             <!--Description Component-->
-            ${Content(event)}
+            ${Description(event)}
+
+            <!--Links Components-->
             ${Links(event)}
 
             <!--Speaker Card Component-->
@@ -30,7 +32,7 @@ function Header(data) {
     )
 }
 
-function Content(data) {
+function Description(data) {
     let HTML = data.desc.map((i) => {
         return `<p class='card-text'>${i}</p>`
     }).join("")
@@ -40,46 +42,6 @@ function Content(data) {
 function Links(data) {
     let HTML = data.link.map((i) => {
         return `<button class="btn center-block"><a href="${i.url}">${i.name} Link</a></button>`
-    }).join("")
-    return HTML;
-}
-{/* <div class="collapseElement${eventData[data]} card-wrapper col-md-4 col-lg-4 in"> */}
-
-function Modal(data) {
-    // let HTML = data.link.map((i) => {
-    // }).join("")
-    // return HTML;
-}
-
-function SpeakerHeader(speakerData) {
-    return `<h5 class="card-title border-round-top no-margin">${speakerData.name}</h5>`
-}
-
-function SpeakerContent(speakerData) {
-    return `
-        <div class="speaker-card row g-0">
-            <div class="img-wrapper border col-md-4 col-sm-4 col-xs-4 flex-centered border-round-top border-round-bottom" >
-                <img src="${speakerData.image}" class="img-speaker">
-            </div>
-            <div class="col-md-8 col-sm-8 col-xs-8 speaker-text-wrapper">
-                <div class="">
-                    <p class="card-text speaker-text">${speakerData.desc}</p>
-                </div>
-                <div class="speaker-text-overlay"></div>
-            </div>
-        </div>
-    `
-}
-
-function ModalBox(data) {
-    // let HTML = data.link.map((i) => {
-    // }).join("")
-    // return HTML;
-}
-
-function ModalContent(data) {
-    let HTML = data.desc.map((data) => {
-        return `<p class="card-text speaker-modal-text">${data}</p>`
     }).join("")
     return HTML;
 }
@@ -95,7 +57,7 @@ function Speaker(data) {
             <div class="" data-toggle="modal" data-target="#modal${nameID}">
             
                 <!--Speaker Header Component-->
-                ${SpeakerHeader(speaker)}
+                <h5 class="card-title border-round-top no-margin">${speaker.name}</h5>
 
                 <!--Content-->
                 <div class="card speaker border border-round-bottom mb-3 ">
@@ -142,6 +104,47 @@ function Speaker(data) {
 
             </div>
         `;
+    }).join("")
+    return HTML;
+}
+
+{/* <div class="collapseElement${eventData[data]} card-wrapper col-md-4 col-lg-4 in"> */}
+
+function Modal(data) {
+    // let HTML = data.link.map((i) => {
+    // }).join("")
+    // return HTML;
+}
+
+function SpeakerHeader(speakerData) {
+    return `<h5 class="card-title border-round-top no-margin">${speakerData.name}</h5>`
+}
+
+function SpeakerContent(speakerData) {
+    return `
+        <div class="speaker-card row g-0">
+            <div class="img-wrapper border col-md-4 col-sm-4 col-xs-4 flex-centered border-round-top border-round-bottom" >
+                <img src="${speakerData.image}" class="img-speaker">
+            </div>
+            <div class="col-md-8 col-sm-8 col-xs-8 speaker-text-wrapper">
+                <div class="">
+                    <p class="card-text speaker-text">${speakerData.desc}</p>
+                </div>
+                <div class="speaker-text-overlay"></div>
+            </div>
+        </div>
+    `
+}
+
+function ModalBox(data) {
+    // let HTML = data.link.map((i) => {
+    // }).join("")
+    // return HTML;
+}
+
+function ModalContent(data) {
+    let HTML = data.desc.map((data) => {
+        return `<p class="card-text speaker-modal-text">${data}</p>`
     }).join("")
     return HTML;
 }
